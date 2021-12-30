@@ -1,29 +1,55 @@
-import { Button, Container, Grid } from "@mui/material";
+import { Container, Grid, Typography, Divider, Chip } from "@mui/material";
+import Summary from "./Summary";
+import Info from "./Info";
+import LongText from "./LongText";
 
 const HomeContainer = () => {
   return (
     <Container>
       <Grid container>
-        <Grid item xs={6} className="a">
-          <div>en tittel til dkgnrskjgndsgfnsfdgfgfsgfsgf</div>
+        <Grid item xs={12} md={6} className="row-1">
+          <Summary />
         </Grid>
-        <Grid item xs={6} className="b">
-          <img
-            alt="barn leker"
-            width="100%"
-            src="https://images.unsplash.com/photo-1611153661566-9cb802ffe968?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2544&q=80"
-          ></img>
+        <Grid item sm={12} md={6} className="row-1">
+          <div style={{ maxWidth: "90%", margin: "auto" }}>
+            <img
+              alt="barn leker"
+              width="100%"
+              src="https://images.unsplash.com/photo-1611153661566-9cb802ffe968?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2544&q=80"
+            ></img>
+          </div>
         </Grid>
-        <Grid item xs={6} className="c">
-          <p>quote</p>
+
+        <Grid item xs={12} className="row-2">
+          <Divider>
+            <Chip
+              label="Ola Nordmann - Ansatt i EY Skye"
+              style={{ color: "#43bc94" }}
+            />
+          </Divider>
+          <Typography
+            variant="h6"
+            style={{ paddingTop: "2%", paddingBottom: "2%" }}
+          >
+            "Vi vil gi barna en sommer for livet!"
+          </Typography>
+          <Divider></Divider>
         </Grid>
-        <Grid item xs={6} className="c">
-          <p>quote</p>
+
+        <Grid item sm={12} md={6} className="row-3">
+          <div style={{ maxWidth: "90%", margin: "auto" }}>
+            <img
+              alt="barn leker"
+              width="100%"
+              src="https://images.unsplash.com/photo-1555791019-72d3af01da82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80"
+            ></img>
+          </div>
         </Grid>
-        <Grid item xs={12} className="d">
-          <h3>En tittel</h3>
-          <p>Masse tekst sentrert</p>
-          <Button>Les mer om dette</Button>
+        <Grid item md={6} sm={12} className="row-3">
+          <Info />
+        </Grid>
+        <Grid item xs={12} className="row-4">
+          <LongText></LongText>
         </Grid>
       </Grid>
     </Container>
