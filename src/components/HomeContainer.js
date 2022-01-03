@@ -1,9 +1,28 @@
 import { Container, Grid, Typography, Divider, Chip } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
 import Summary from "./Summary";
 import Info from "./Info";
 import LongText from "./LongText";
 
 const HomeContainer = () => {
+  const themedChip = createTheme({
+    components: {
+      MuiChip: {
+        styleOverrides: {
+          root: {
+            color: "white",
+            backgroundColor: "#43bc94",
+            "&:hover": {
+              background: "white",
+              color: "#43bc94",
+            },
+          },
+        },
+      },
+    },
+  });
+
   return (
     <Container>
       <Grid container>
@@ -22,10 +41,12 @@ const HomeContainer = () => {
 
         <Grid item xs={12} className="row-2">
           <Divider>
-            <Chip
-              label="Ola Nordmann - Ansatt i EY Skye"
-              style={{ color: "#43bc94" }}
-            />
+            <ThemeProvider theme={themedChip}>
+              <Chip
+                label="Ola Nordmann - Ansatt i EY Skye"
+                backgroundColor="#43bc94"
+              />
+            </ThemeProvider>
           </Divider>
           <Typography
             variant="h6"

@@ -1,9 +1,9 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Overnatting from "./components/Overnatting";
+import LongText from "./components/LongText";
 
 test("renders learn react link", () => {
-  render(<Overnatting />);
-  const linkElement = screen.getByText(/overnatting/i);
+  render(<LongText />);
+  const linkElement = screen.getByText(/Tidenes/i);
   expect(linkElement).toBeInTheDocument();
 });

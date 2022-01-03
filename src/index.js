@@ -4,13 +4,21 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Overnatting from "./components/Overnatting";
+import Praktisk from "./components/Praktisk";
+import Pamelding from "./components/Pamelding";
+import Aktiviteter from "./components/Aktiviteter";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}></Route>
-      <Route path="overnatting" element={<Overnatting />}>
+      <Route exact path="/" element={<App />}></Route>
+      <Route path="/praktisk" element={<Praktisk />}>
+        {" "}
+      </Route>
+      <Route path="/pamelding" element={<Pamelding />}>
+        {" "}
+      </Route>
+      <Route path="/aktiviteter" element={<Aktiviteter />}>
         {" "}
       </Route>
     </Routes>

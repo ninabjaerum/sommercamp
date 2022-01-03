@@ -1,9 +1,41 @@
+import { Grid } from "@mui/material";
+import { Link, NavLink } from "react-router-dom";
 const Overnatting = () => {
   //State here
 
   return (
     <div>
-      <p>Overnatting side</p>
+      <div className="header-cont">
+        <Grid>
+          <Grid container style={{ alignItems: "center" }}>
+            <Grid item xs={1} md={3}></Grid>
+            <Grid item xs={10} md={6}>
+              <div className="logo-cont-header">
+                <NavLink to="/">
+                  {" "}
+                  <img src="/logotest.png" alt="logo" width="90%" />
+                </NavLink>
+              </div>
+            </Grid>
+            <Grid item xs={1} md={3}></Grid>
+          </Grid>
+          <Grid item xs={12}>
+            <div className="nav-cont">
+              <nav>
+                <Link to="/pamelding" className="nav-item">
+                  Påmelding
+                </Link>
+                <Link to="overnatting" className="nav-item">
+                  Praktisk
+                </Link>
+                <Link to="overnatting" className="nav-item">
+                  Aktiviteter
+                </Link>
+              </nav>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
     </div>
   );
 };

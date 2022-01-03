@@ -6,13 +6,17 @@
   background-color: #fff7ea;
 }
 
+.subheader-cont {
+  background-color: #fff7ea;
+}
+
 .logo-cont-header {
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 35vh;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
+  min-height: fit-content;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
 }
 
 .nav-item {
@@ -35,21 +39,23 @@
 }
 
 .row-1 {
-  padding: 2%;
-  padding-top: 5%;
+  padding: 2vh;
+  padding-top: 6vh;
 }
 
 .row-2 {
-  padding: 2%;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   text-align: center;
 }
 
 .row-3 {
-  padding: 2%;
+  padding: 2vh;
 }
 
 .row-4 {
-  padding: 4%;
+  padding: 2vh;
+  padding-bottom: 8vh;
 }
 
 .footer-cont {

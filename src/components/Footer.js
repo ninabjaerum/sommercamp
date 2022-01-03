@@ -23,7 +23,8 @@ const Footer = () => {
         </Grid>
         <Grid
           item
-          xs={4}
+          xs={8}
+          sm={4}
           style={{
             justifyContent: "center",
           }}

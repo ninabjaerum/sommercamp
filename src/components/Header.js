@@ -2,21 +2,6 @@ import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  /* <Grid item xs={12}>
-          <div className="nav-cont">
-            <nav>
-              <Link to="overnatting" className="nav-item">
-                Praktisk
-              </Link>
-              <Link to="overnatting" className="nav-item">
-                Kontakt og påmelding
-              </Link>
-              <Link to="overnatting" className="nav-item">
-                Aktiviteter
-              </Link>
-            </nav>
-          </div>
-        </Grid>*/
   return (
     <div className="header-cont">
       <Grid>
@@ -32,13 +17,13 @@ const Header = () => {
         <Grid item xs={12}>
           <div className="nav-cont">
             <nav>
-              <Link to="overnatting" className="nav-item">
+              <Link to="pamelding" className="nav-item">
                 Påmelding
               </Link>
-              <Link to="overnatting" className="nav-item">
+              <Link to="praktisk" className="nav-item">
                 Praktisk
               </Link>
-              <Link to="overnatting" className="nav-item">
+              <Link to="aktiviteter" className="nav-item">
                 Aktiviteter
               </Link>
             </nav>
