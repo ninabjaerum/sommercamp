@@ -37,7 +37,7 @@ const Praktisk = () => {
                 massa. Duis venenatis cursus risus at ultrices. Sed consequat
                 tortor elit, eu laoreet enim maximus et. Vestibulum ante ipsum
                 primis in faucibus orci luctus et ultrices posuere cubilia
-                curae; Phasellus quis hendrerit ipsum.
+                curae; Phasellus quis hendrerita ipsum.
               </Typography>
 
               <Typography variant="h6" className="subtitles">
