@@ -34,10 +34,10 @@ const Praktisk = () => {
               </Typography>
               <Typography>
                 Integer eget lacus scelerisque, gravida quam quis, ultricies
-                massa. Duis venenatis cursus risus at ultrices. Sed consequat
-                tortor elit, eu laoreet enim maximus et. Vestibulum ante ipsum
-                primis in faucibus orci luctus et ultrices posuere cubilia
-                curae; Phasellus quis hendrerita ipsum.
+                massa. Duis log venenatis cursus risus at ultrices. Sed
+                consequat tortor elit, eu laoreet enim maximus et. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia curae; Phasellus quis hendrerita ipsum.
               </Typography>
 
               <Typography variant="h6" className="subtitles">
