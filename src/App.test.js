@@ -4,6 +4,6 @@ import LongText from "./components/LongText";
 
 test("renders learn react link", () => {
   render(<LongText />);
-  const linkElement = screen.getByText(/Tidenes/i);
+  const linkElement = screen.getByText(/oss/i);
   expect(linkElement).toBeInTheDocument();
 });
