@@ -33,10 +33,8 @@ const Info = () => {
             blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom.
             Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for
             å campe utendørs. Les om dette{" "}
-            <NavLink to="/praktisk">
-              <a href="#" style={{ color: "#43bc94" }}>
-                her.
-              </a>
+            <NavLink to="/praktisk" style={{ color: "#43bc94" }}>
+              her.
             </NavLink>
           </Typography>
           <Typography
