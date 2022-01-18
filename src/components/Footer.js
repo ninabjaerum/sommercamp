@@ -17,7 +17,7 @@ const Footer = () => {
         >
           <div>
             <Typography>Kontaktinformasjon </Typography>
-            <Typography>E-post: sommercamp@skye.no </Typography>
+            <Typography>E-post: PLACEHOLDER@mail.no </Typography>
             <Typography>Telefon: +47 123 45 678</Typography>
           </div>
         </Grid>

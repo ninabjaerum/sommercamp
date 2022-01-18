@@ -40,7 +40,7 @@ const LongText = () => {
           style={{ paddingBottom: "2%", color: "#43bc94", fontWeight: "500" }}
         >
           {" "}
-          Tidenes sommeferie
+          Om oss
         </Typography>
         <Typography lineHeight="2.5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -55,6 +55,7 @@ const LongText = () => {
           dapibus dolor iaculis urna tempus pulvinar. Etiam eget nunc eu risus
           fringilla dapibus. Curabitur sit amet urna lacus. Integer porta tempus
           lacus. In nec tempor tortor. In a interdum purus, at gravida turpis.
+          Sponsorer etc.
         </Typography>
         <div style={{ paddingTop: "2%" }}>
           <ThemeProvider theme={themeButton}>

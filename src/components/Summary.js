@@ -33,13 +33,15 @@ const Summary = () => {
           </Typography>
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
-            Maecenas mauris sapien, ullamcorper gravida diam a, faucibus
-            pellentesque tellus. In posuere elit fringilla neque ultricies
-            pulvinar ut at est. Nullam accumsan tincidunt turpis ac finibus.Sed
-            vehicula id diam eget gravida. Fusce a nisl neque. Fusce quis nisi
-            sapien. Nunc sit amet magna velit. Cras nulla mauris, dignissim sit
-            amet pharetra utfringilla neque ultricies. faucibus pellentesque
-            tellus.
+            Er du mellom 10-12 år? Har du har lyst til å lære noe nytt og gjøre
+            ting du kanskje ikke har hatt muligheten til tidligere? Da har du
+            kommet til rett sted! <br></br> <br></br> Sommeren 2022 ønsker vi å
+            gjennomføre 4 uker med lek og moro på Jakthytta på Malmøya rett
+            utenfor Stavern. Campen er gratis og hver uke vil vare fra mandag
+            til lørdag. Det blir ca. 20 barn sammen på camp hver uke. For alle
+            barn som er med blir det fem dager fylt med alt fra fotballcup,
+            bading og vannski til matlaging, tegning og andre kreative
+            aktiviteter.
           </Typography>
         </ThemeProvider>
       </div>
