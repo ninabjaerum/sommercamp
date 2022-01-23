@@ -24,9 +24,9 @@ const Praktisk = () => {
     <div>
       <ThemeProvider theme={titlesTheme}>
         <SubHeader title="Praktisk informasjon"></SubHeader>
-        <Container className="">
+        <Container>
           <Grid container style={{ paddingTop: "5vh", paddingBottom: "20vh" }}>
-            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+            <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
               <Typography
                 variant="h4"
                 style={{ color: "#43bc94", fontWeight: "500" }}
@@ -37,24 +37,17 @@ const Praktisk = () => {
                 Hytta på Maløya
               </Typography>
               <Typography>
-                Integer eget lacus scelerisque, gravida quam quis, ultricies
-                massa. Duis log venenatis cursus risus at ultrices. Sed
-                consequat tortor elit, eu laoreet enim maximus et. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia curae; Phasellus quis hendrerita ipsum.
-              </Typography>
-
-              <Typography variant="h6" className="subtitles">
-                Beliggenhet og fasiliteter
-              </Typography>
-              <Typography>
-                Etiam a tincidunt quam. Nullam iaculis volutpat urna ut tempus.
-                Mauris venenatis velit lectus, in consectetur leo iaculis
-                interdum. Nullam vel metus euismod tellus convallis blandit.
-                Integer posuere suscipit ullamcorper. Nam quis neque enim.
+                Malmøya er en idyllisk øy utenfor Stavern med mange
+                bademuligheter, et perfekt sted å samle sommerminner! På Malmøya
+                finner du alt fra nydelige svaberg til frodige eikeskoger.
+                <br></br>
+                <br></br> Ikke langt fra sjøen ligger Jakthytta, en stor hytte
+                med hele 32 sengeplasser, stort kjøkken og flere oppholdsrom med
+                god plass. Utenfor hytta er det også flere spennende områder man
+                kan utforske, samt egen fotballbane.
               </Typography>
             </Grid>
-            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+            <Grid item xs={12} sm={6}>
               <div
                 style={{
                   maxWidth: "100%",
@@ -62,10 +55,31 @@ const Praktisk = () => {
                   padding: "2vh",
                 }}
               >
-                <img alt="grilling" width="100%" src="/campfire.jpg"></img>
+                <img alt="grilling" width="90%" src="/campfire.jpg"></img>
               </div>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
+              <Typography
+                variant="h4"
+                style={{
+                  color: "#43bc94",
+                  fontWeight: "500",
+
+                  paddingBottom: "2vh",
+                }}
+              >
+                Sikkerhet
+              </Typography>
+
+              <Typography>
+                Alle lederne på sommercampen har nylig gjennomført førstehjelp-
+                og livredningskurs. Det vil være påbudt med flytevest når vi
+                kjører båt og det vil alltid være badevakt til stede når barna
+                bader i sjøen. Vi tar sikkerheten til alle deltakerne på campen
+                med høyeste alvor og vil ha strenge rutiner for å ivareta denne
+                sikkerheten slik at vi er helt trygge på at vi kan håndtere
+                ulike utfordringer. Mer informasjon kommer.
+              </Typography>
               <Typography
                 variant="h4"
                 style={{
@@ -75,12 +89,59 @@ const Praktisk = () => {
                   paddingTop: "2vh",
                 }}
               >
+                Transport
+              </Typography>
+
+              <Typography>
+                Vi ønsker å reise sammen med felles transport hele veien til
+                Malmøya. Oppmøte vil være i Oslo-området mandagen den uken du
+                skal på tur. Vi tar buss til Larvik og deretter båt til øya,
+                hvor vi til slutt går sammen opp til hytta. Nærmere informasjon
+                om tid og sted vil komme.
+              </Typography>
+              <Typography
+                variant="h4"
+                style={{
+                  color: "#43bc94",
+                  fontWeight: "500",
+                  paddingBottom: "2vh",
+                  paddingTop: "2vh",
+                }}
+              >
+                Kommunikasjon og hjemlengsel
+              </Typography>
+
+              <Typography>
+                Vi ønsker at sommercampen skal være helt fritt for
+                mobiltelefoner og annet elektronisk utstyr (kamera er tillatt),
+                da vi ønsker at barna heller skal delta på aktiviteter ute og
+                sammen med andre barn. Det vil være anledning til å ringe
+                deltakerne om det skulle være av helt spesielle grunner eller
+                akutte nødstilfeller. Dersom barna har behov for å ringe hjem,
+                vil de også få muligheten til det.
+                <br></br>
+                Hjemlengsel er noe som kan oppstå, det er derfor viktig at dere
+                prater med barnet på forhånd og gir oss beskjed slik at vi
+                sammen gjør det som er best for barnets opphold. Her er vi helt
+                avhengig av åpen, direkte og konstruktiv kommunikasjon med
+                foreldre/foresatte.
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
+              <Typography
+                variant="h4"
+                style={{
+                  color: "#43bc94",
+                  fontWeight: "500",
+                  paddingBottom: "2vh",
+                }}
+              >
                 Pakkeliste{" "}
               </Typography>
               <Typography>
                 Vi oppfordrer alle til å ha med det som er oppgitt på
-                pakkelisten under. Ta kontakt med oss ved spørsmål, så kan vi se
-                om vi kan hjelpe til med noe.
+                pakkelisten under. Ta kontakt med oss dersom dere mangler
+                noe/har noen spørsmål, så skal vi prøve å hjelpe til.
                 <ul>
                   <li>Sko (joggesko og sandaler)</li>
                   <li>Toalettsaker</li>
@@ -110,7 +171,7 @@ const Praktisk = () => {
                 Andre ting som kan være greit å ta med:
                 <ul>
                   <li>Lesestoff</li>
-                  <li>Mobiltelefon eller liknende</li>
+                  <li>Kamera (for eksempel engangskamera)</li>
                   <li>Leketøy</li>
                   <li>Kosedyr</li>
                   <li>Kamera</li>
@@ -118,24 +179,6 @@ const Praktisk = () => {
                   <li>Lommelykt</li>
                   <li>Solbriller</li>
                 </ul>
-              </Typography>
-            </Grid>
-            <Grid item xs={12} sm={6} style={{ padding: "2vh" }}>
-              <Typography
-                variant="h4"
-                style={{ color: "#43bc94", fontWeight: "500" }}
-              >
-                Transport
-              </Typography>
-              <Typography variant="h6" className="subtitles">
-                Hvordan kommer jeg til campen?
-              </Typography>
-              <Typography>
-                Integer eget lacus scelerisque, gravida quam quis, ultricies
-                massa. Duis log venenatis cursus risus at ultrices. Sed
-                consequat tortor elit, eu laoreet enim maximus et. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia curae; Phasellus quis hendrerita ipsum.
               </Typography>
             </Grid>
           </Grid>

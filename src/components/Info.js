@@ -28,8 +28,8 @@ const Info = () => {
           </Typography>
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
-            Sommercampen og overnatting blir i Jakthytta på Malmøya, med egen
-            fin sovehytte i ekte sommercmapstil! Her har vi ulike typer rom,
+            Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen
+            fin sovehytte i ekte sommercampstil! Her har vi ulike typer rom,
             blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom.
             Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for
             å campe utendørs. Les om dette{" "}
@@ -50,7 +50,7 @@ const Info = () => {
             alle. Vi ønsker også å inkludere barna i matlagingen hvis det er noe
             de har lyst til. Det blir matlaging både inne på felleskjøkkenet og
             utendørs på bål eller grill. Husk å gi beskjed om allergier,
-            intoleranser eller andre hensyn. 
+            intoleranser eller andre hensyn.
           </Typography>
         </ThemeProvider>
       </div>

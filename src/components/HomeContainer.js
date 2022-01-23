@@ -43,7 +43,7 @@ const HomeContainer = () => {
           <Divider>
             <ThemeProvider theme={themedChip}>
               <Chip
-                label="Ola Nordmann - Ansatt i EY Skye"
+                label="Stine-Mari Stange - Ansatt i EY Skye"
                 backgroundColor="#43bc94"
               />
             </ThemeProvider>

@@ -2,6 +2,8 @@ import SubHeader from "./SubHeader";
 import { Container, Grid, Typography } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Button from "@mui/material/Button";
+import { NavLink } from "react-router-dom";
 
 const titlesTheme = createTheme();
 
@@ -14,14 +16,36 @@ titlesTheme.typography.h4 = {
     fontSize: "2.4rem",
   },
 };
+
+const themeButton = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          color: "white",
+          backgroundColor: "#43bc94",
+          "&:hover": {
+            background: "white",
+            color: "#43bc94",
+          },
+        },
+      },
+    },
+  },
+});
 const Pamelding = () => {
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
         <SubHeader title="Påmelding og plasser"></SubHeader>
         <Container className="pameld-cont">
-          <Grid container style={{ paddingBottom: "7vh" }}>
-            <Grid item xs={7} style={{ paddingTop: "5vh" }}>
+          <Grid container style={{ paddingBottom: "15vh" }}>
+            <Grid
+              item
+              xs={12}
+              sm={7}
+              style={{ paddingTop: "5vh", paddingRight: "1vh" }}
+            >
               <Typography
                 variant="h4"
                 style={{
@@ -40,50 +64,46 @@ const Pamelding = () => {
                 meningsfylt alternativ hvor vi tar med barna på spennende
                 aktiviteter. Vi går gjennom søknadene så raskt som mulig. Det
                 vil bli ca. 20 plasser hver uke fordelt på 4 uker med ca. 8
-                ledere hver uke.{" "}
-              </Typography>
-              <Typography variant="h6" className="subtitles">
-                Send søknad via e-post
-              </Typography>
-              <Typography>
-                Dersom du ønsker å melde ditt barn på camp, ber vi om at du
-                sender oss en e-post til PLACEHOLDER@mail.com{" "}
-              </Typography>
-              <br></br>
-              <Typography>
-                Vi ønsker at barn som ikke har muligheten til å reise på ferie
-                med egen familie/foresatte også skal få en minnerik sommer lek,
-                moro og nye bekjentskaper. Vi har plass til ca. 20 barn hver uke
-                og har til sammen 4 uker, derfor er det dessverre ikke sikkert
-                alle som melder seg på får vært med. Derfor må vi sette opp noen
-                kriterier for at de som trenger det aller mest skal få være med.
-                Vi ønsker at følgende infromasjon er med i eposten:
+                ledere hver uke. <br></br>
+                <br></br>
+                Slik er ukene fordelt: <br></br>
+                <br></br>
+                Uke 25: 20-25 juni 2022 <br></br>
+                Uke 26: 27 juni – 2 juli 2022 <br></br>
+                Uke 27: 4-9 juli 2022 <br></br>
+                Uke 28: 11-16 juli 2022 <br></br>
               </Typography>
 
+              <br></br>
               <Typography>
-                <ul>
-                  <li>Alder på barn</li>
-                  <li>Mange store biler på en vei</li>
-                  <li>Interesser</li>
-                  <li>Et gult hus</li>
-                  <li>En høyt tak</li>
-                  <li>Gode sommerminner</li>
-                  <li>Liker du å stå på vannski</li>
-                </ul>
+                Ved påmeldingen ønsker vi at dere går inn på skjema{" "}
+                <NavLink to="/" style={{ color: "#43bc94" }}>
+                  her
+                </NavLink>{" "}
+                eller på knappen under, og fyller ut all nødvendig informasjon.
+                Det er dessverre ikke sikkert alle som melder seg på får være
+                med da dette er et arrangement for de som trenger det aller
+                mest. Fristen for å melde seg på er (..) og deretter vil vi ta
+                kontakt forløpende.
               </Typography>
+              <div style={{ paddingTop: "2vh" }}>
+                <ThemeProvider theme={themeButton}>
+                  <Button variant="contained">Påmeldingsskjema</Button>
+                </ThemeProvider>
+              </div>
             </Grid>
             <Grid
               item
-              xs={5}
+              xs={12}
+              sm={5}
               style={{
                 paddingTop: "5vh",
-                paddingLeft: "4vh",
               }}
             >
-              <div style={{ paddingBottom: "2vh" }}>
+              <div style={{ padding: "2vh" }}>
                 <img alt="barn leker" width="100%" src="/taulek.jpg"></img>
               </div>
-              <div>
+              <div style={{ padding: "2vh" }}>
                 <img
                   alt="barn leker"
                   width="100%"
