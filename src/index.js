@@ -7,11 +7,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Praktisk from "./components/Praktisk";
 import Pamelding from "./components/Pamelding";
 import Aktiviteter from "./components/Aktiviteter";
+import HomeContainer from "./components/HomeContainer";
+import About from "./components/About";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<App />}></Route>
+      <Route path="/" element={<HomeContainer />}>
+        {" "}
+      </Route>
       <Route path="/praktisk" element={<Praktisk />}>
         {" "}
       </Route>
@@ -19,6 +24,9 @@ ReactDOM.render(
         {" "}
       </Route>
       <Route path="/aktiviteter" element={<Aktiviteter />}>
+        {" "}
+      </Route>
+      <Route path="/om" element={<About />}>
         {" "}
       </Route>
     </Routes>

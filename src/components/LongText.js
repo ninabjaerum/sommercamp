@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Button from "@mui/material/Button";
+import { NavLink } from "react-router-dom";
 
 const titlesTheme = createTheme();
 
@@ -43,23 +44,22 @@ const LongText = () => {
           Om oss
         </Typography>
         <Typography lineHeight="2.5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          at odio tempus, interdum magna eu, iaculis eros. Mauris at viverra
-          nulla, eu varius neque. Pellentesque ultricies gravida est ac
-          vehicula. Nullam rhoncus odio nulla, aliquet egestas lorem aliquam a.
-          Sed sed dignissim justo. Quisque nec accumsan ante. In dui enim,
-          maximus et vulputate vel, aliquet eu justo. Duis ullamcorper at dui
-          sit amet dignissim. Curabitur vulputate, ex quis luctus scelerisque,
-          ligula justo finibus sapien, a pharetra felis quam ac ante.
-          Pellentesque imperdiet mauris eu nulla elementum viverra. Fusce
-          dapibus dolor iaculis urna tempus pulvinar. Etiam eget nunc eu risus
-          fringilla dapibus. Curabitur sit amet urna lacus. Integer porta tempus
-          lacus. In nec tempor tortor. In a interdum purus, at gravida turpis.
-          Sponsorer etc.
+          Vi som jobber i EY Skye har lyst til å bidra med noe mer enn de
+          konsulent-tjenestene innen teknologi vi leverer som selskap. Vi får
+          ofte tilgang til opplevelser som er betalt for, fordi selskapet vårt
+          har mulighet til det. På den måten er vi heldige. Og det gjør at vi
+          ønsker å gi noe tilbake. Derfor er det vi ansatte som driver Skye
+          sommercamp sammen. Vi gjør det som frivillige, og gir av vår tid.
+          Samtidig er vi overbevist om at det vil være like bra for oss som for
+          barna som blir med på campen. Vi gleder oss til leirbål, gode
+          samtaler, måltider sammen som vi selv har laget og fnising i soveposen
+          før natten kommer.
         </Typography>
         <div style={{ paddingTop: "2%" }}>
           <ThemeProvider theme={themeButton}>
-            <Button variant="contained">Les mer om dette</Button>
+            <NavLink to="/om" style={{ textDecoration: "none" }}>
+              <Button variant="contained">Les mer om oss her</Button>
+            </NavLink>
           </ThemeProvider>
         </div>
       </ThemeProvider>

@@ -55,7 +55,7 @@ const Praktisk = () => {
                   padding: "2vh",
                 }}
               >
-                <img alt="grilling" width="90%" src="/campfire.jpg"></img>
+                <img alt="grilling" width="80%" src="/campfire.jpg"></img>
               </div>
             </Grid>
             <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
@@ -113,13 +113,13 @@ const Praktisk = () => {
 
               <Typography>
                 Vi ønsker at sommercampen skal være helt fritt for
-                mobiltelefoner og annet elektronisk utstyr (kamera er tillatt),
-                da vi ønsker at barna heller skal delta på aktiviteter ute og
-                sammen med andre barn. Det vil være anledning til å ringe
-                deltakerne om det skulle være av helt spesielle grunner eller
-                akutte nødstilfeller. Dersom barna har behov for å ringe hjem,
-                vil de også få muligheten til det.
-                <br></br>
+                mobiltelefoner og annet elektronisk utstyr, da vi ønsker at
+                barna heller skal delta på aktiviteter ute og sammen med andre
+                barn. Det vil være anledning til å ringe deltakerne om det
+                skulle være av helt spesielle grunner eller akutte
+                nødstilfeller. Dersom barna har behov for å ringe hjem, vil de
+                også få muligheten til det.
+                <br></br> <br></br>
                 Hjemlengsel er noe som kan oppstå, det er derfor viktig at dere
                 prater med barnet på forhånd og gir oss beskjed slik at vi
                 sammen gjør det som er best for barnets opphold. Her er vi helt
@@ -141,7 +141,7 @@ const Praktisk = () => {
               <Typography>
                 Vi oppfordrer alle til å ha med det som er oppgitt på
                 pakkelisten under. Ta kontakt med oss dersom dere mangler
-                noe/har noen spørsmål, så skal vi prøve å hjelpe til.
+                noe/har noen spørsmål, så skal vi prøve å hjelpe dere 😊
                 <ul>
                   <li>Sko (joggesko og sandaler)</li>
                   <li>Toalettsaker</li>
@@ -171,10 +171,8 @@ const Praktisk = () => {
                 Andre ting som kan være greit å ta med:
                 <ul>
                   <li>Lesestoff</li>
-                  <li>Kamera (for eksempel engangskamera)</li>
-                  <li>Leketøy</li>
-                  <li>Kosedyr</li>
-                  <li>Kamera</li>
+                  <li>Kamera (f. eks et engangskamera)</li>
+                  <li>Leketøy/kosedyr</li>
                   <li>Caps eller annet hodeplagg</li>
                   <li>Lommelykt</li>
                   <li>Solbriller</li>

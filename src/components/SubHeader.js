@@ -57,6 +57,9 @@ const SubHeader = (props) => {
                 <Link to="/aktiviteter" className="nav-item">
                   Aktiviteter
                 </Link>
+                <Link to="/om" className="nav-item">
+                  Om Oss
+                </Link>
               </nav>
             </div>
           </Grid>

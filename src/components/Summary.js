@@ -37,11 +37,12 @@ const Summary = () => {
             ting du kanskje ikke har hatt muligheten til tidligere? Da har du
             kommet til rett sted! <br></br> <br></br> Sommeren 2022 ønsker vi å
             gjennomføre 4 uker med lek og moro på Jakthytta på Malmøya rett
-            utenfor Stavern. Campen er gratis, og hver uke vil vare fra mandag
-            til lørdag. Det blir ca. 20 barn sammen på camp hver uke. For alle
-            barn som er med blir det fem dager fylt med alt fra fotballcup,
-            bading og vannski til matlaging, tegning og andre kreative
-            aktiviteter.
+            utenfor Stavern. Campen er spesielt for deg som denne sommeren ikke
+            har så mange muligheter for å reise på ferie og Campen er gratis.
+            Hver uke vil vare fra mandag til lørdag. Det blir ca. 20 barn sammen
+            på camp hver uke. For alle barn som er med blir det fem dager fylt
+            med alt fra fotballcup, bading og vannski til matlaging, tegning og
+            andre kreative aktiviteter.
           </Typography>
         </ThemeProvider>
       </div>
