@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Container, Grid, Typography } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { useTranslation } from "react-i18next";
 
 const titlesTheme = createTheme();
 
@@ -17,6 +18,7 @@ titlesTheme.typography.h4 = {
 };
 
 const Praktisk = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -31,21 +33,12 @@ const Praktisk = () => {
                 variant="h4"
                 style={{ color: "#43bc94", fontWeight: "500" }}
               >
-                Overnatting
+                {t("practical.accomodationTitle")}
               </Typography>
               <Typography variant="h6" className="subtitles">
-                Hytta på Maløya
+                {t("practical.accomText2")}
               </Typography>
-              <Typography>
-                Malmøya er en idyllisk øy utenfor Stavern med mange
-                bademuligheter, et perfekt sted å samle sommerminner! På Malmøya
-                finner du alt fra nydelige svaberg til frodige eikeskoger.
-                <br></br>
-                <br></br> Ikke langt fra sjøen ligger Jakthytta, en stor hytte
-                med hele 32 sengeplasser, stort kjøkken og flere oppholdsrom med
-                god plass. Utenfor hytta er det også flere spennende områder man
-                kan utforske, samt egen fotballbane.
-              </Typography>
+              <Typography>{t("practical.accomText1")}</Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
               <div
@@ -68,18 +61,9 @@ const Praktisk = () => {
                   paddingBottom: "2vh",
                 }}
               >
-                Sikkerhet
+                {t("practical.transportTitle")}
               </Typography>
-
-              <Typography>
-                Alle lederne på sommercampen har nylig gjennomført førstehjelp-
-                og livredningskurs. Det vil være påbudt med flytevest når vi
-                kjører båt og det vil alltid være badevakt til stede når barna
-                bader i sjøen. Vi tar sikkerheten til alle deltakerne på campen
-                med høyeste alvor og vil ha strenge rutiner for å ivareta denne
-                sikkerheten slik at vi er helt trygge på at vi kan håndtere
-                ulike utfordringer. Mer informasjon kommer.
-              </Typography>
+              <Typography>{t("practical.transportText")}</Typography>
               <Typography
                 variant="h4"
                 style={{
@@ -89,16 +73,9 @@ const Praktisk = () => {
                   paddingTop: "2vh",
                 }}
               >
-                Transport
+                {t("practical.securityTitle")}
               </Typography>
-
-              <Typography>
-                Vi ønsker å reise sammen med felles transport hele veien til
-                Malmøya. Oppmøte vil være i Oslo-området mandagen den uken du
-                skal på tur. Vi tar buss til Larvik og deretter båt til øya,
-                hvor vi til slutt går sammen opp til hytta. Nærmere informasjon
-                om tid og sted vil komme.
-              </Typography>
+              <Typography>{t("practical.securityText")}</Typography>
               <Typography
                 variant="h4"
                 style={{
@@ -108,24 +85,11 @@ const Praktisk = () => {
                   paddingTop: "2vh",
                 }}
               >
-                Kommunikasjon og hjemlengsel
+                {t("practical.communicationTitle")}
               </Typography>
-
-              <Typography>
-                Vi ønsker at sommercampen skal være helt fritt for
-                mobiltelefoner og annet elektronisk utstyr, da vi ønsker at
-                barna heller skal delta på aktiviteter ute og sammen med andre
-                barn. Det vil være anledning til å ringe deltakerne om det
-                skulle være av helt spesielle grunner eller akutte
-                nødstilfeller. Dersom barna har behov for å ringe hjem, vil de
-                også få muligheten til det.
-                <br></br> <br></br>
-                Hjemlengsel er noe som kan oppstå, det er derfor viktig at dere
-                prater med barnet på forhånd og gir oss beskjed slik at vi
-                sammen gjør det som er best for barnets opphold. Her er vi helt
-                avhengig av åpen, direkte og konstruktiv kommunikasjon med
-                foreldre/foresatte.
-              </Typography>
+              <Typography>{t("practical.communicationText1")}</Typography>{" "}
+              <br></br>
+              <Typography>{t("practical.communicationText2")}</Typography>
             </Grid>
             <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
               <Typography
@@ -136,48 +100,17 @@ const Praktisk = () => {
                   paddingBottom: "2vh",
                 }}
               >
-                Pakkeliste{" "}
+                {" "}
+                {t("practical.pakkelisteTitle")}
               </Typography>
-              <Typography>
-                Vi oppfordrer alle til å ha med det som er oppgitt på
-                pakkelisten under. Ta kontakt med oss dersom dere mangler
-                noe/har noen spørsmål, så skal vi prøve å hjelpe dere 😊
-                <ul>
-                  <li>Sko (joggesko og sandaler)</li>
-                  <li>Toalettsaker</li>
-                  <li>Solkrem</li>
-                  <li>Klær</li>
-                  <ul>
-                    <li>Tykk genser (Ull/fleece)</li>
-                    <li>Badetøy</li>
-                    <li>Ullundertøy</li>
-                    <li>Undertøy</li>
-                    <li>Lue og votter i tilfelle det blir kaldt</li>
-                    <li>Ullsokker</li>
-                    <li>
-                      Diverse hverdagsklær som passer både til varme sommerdager
-                      og mer utfordrende vær
-                    </li>
-                  </ul>
-                  <li>Ytterjakke (Eventuelt også turbukse/utebukse)</li>
-                  <li>Regntøy og støvler</li>
-                  <li>Håndkle (Dusj og bading)</li>
-                  <li>
-                    Enkelt sengetøy/sovepose (putevar, dynetrekk og laken)
-                  </li>
-                  <li>Liten dagstursekk</li>
-                  <li>Drikkeflaske</li>
-                </ul>
-                Andre ting som kan være greit å ta med:
-                <ul>
-                  <li>Lesestoff</li>
-                  <li>Kamera (f. eks et engangskamera)</li>
-                  <li>Leketøy/kosedyr</li>
-                  <li>Caps eller annet hodeplagg</li>
-                  <li>Lommelykt</li>
-                  <li>Solbriller</li>
-                </ul>
-              </Typography>
+              <Typography>{t("practical.pakktext1")} 😊</Typography>
+              <br></br>
+              <Typography>{t("practical.pakktext2")}</Typography> <br></br>
+              <Typography>{t("practical.pakktext3")}</Typography>
+              <br></br>
+              <Typography>{t("practical.pakktext4")}</Typography>
+              <br></br>
+              <Typography>{t("practical.pakktext5")}</Typography>
             </Grid>
           </Grid>
         </Container>

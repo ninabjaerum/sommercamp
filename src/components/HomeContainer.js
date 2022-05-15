@@ -4,8 +4,12 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Summary from "./Summary";
 import Info from "./Info";
 import LongText from "./LongText";
+import { useTranslation } from "react-i18next";
+import i18n from "../i18n";
 
 const HomeContainer = () => {
+  const { t } = useTranslation();
+
   const themedChip = createTheme({
     components: {
       MuiChip: {
@@ -42,17 +46,14 @@ const HomeContainer = () => {
         <Grid item xs={12} className="row-2">
           <Divider>
             <ThemeProvider theme={themedChip}>
-              <Chip
-                label="Stine-Mari Stange - Ansatt i EY Skye"
-                backgroundColor="#43bc94"
-              />
+              <Chip label={t("homepage.ansatt")} backgroundColor="#43bc94" />
             </ThemeProvider>
           </Divider>
           <Typography
             variant="h6"
             style={{ paddingTop: "2%", paddingBottom: "2%" }}
           >
-            "Vi vil gi barna en sommer for livet!"
+            {t("homepage.quote")}
           </Typography>
           <Divider></Divider>
         </Grid>

@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const titlesTheme = createTheme();
 
@@ -33,6 +34,7 @@ const themeButton = createTheme({
 });
 
 const LongText = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
@@ -41,24 +43,13 @@ const LongText = () => {
           style={{ paddingBottom: "2%", color: "#43bc94", fontWeight: "500" }}
         >
           {" "}
-          Om oss
+          {t("homepage.aboutus")}
         </Typography>
-        <Typography lineHeight="2.5">
-          Vi som jobber i EY Skye har lyst til å bidra med noe mer enn de
-          konsulent-tjenestene innen teknologi vi leverer som selskap. Vi får
-          ofte tilgang til opplevelser som er betalt for, fordi selskapet vårt
-          har mulighet til det. På den måten er vi heldige. Og det gjør at vi
-          ønsker å gi noe tilbake. Derfor er det vi ansatte som driver Skye
-          sommercamp sammen. Vi gjør det som frivillige, og gir av vår tid.
-          Samtidig er vi overbevist om at det vil være like bra for oss som for
-          barna som blir med på campen. Vi gleder oss til leirbål, gode
-          samtaler, måltider sammen som vi selv har laget og fnising i soveposen
-          før natten kommer.
-        </Typography>
+        <Typography lineHeight="2.5">{t("about.aboutText1")}</Typography>
         <div style={{ paddingTop: "2%" }}>
           <ThemeProvider theme={themeButton}>
             <NavLink to="/om" style={{ textDecoration: "none" }}>
-              <Button variant="contained">Les mer om oss her</Button>
+              <Button variant="contained">{t("homepage.aboutButton")}</Button>
             </NavLink>
           </ThemeProvider>
         </div>

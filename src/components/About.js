@@ -3,6 +3,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 const titlesTheme = createTheme();
 
 titlesTheme.typography.h4 = {
@@ -16,6 +17,7 @@ titlesTheme.typography.h4 = {
 };
 
 const About = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -35,54 +37,43 @@ const About = () => {
                   paddingLeft: "2vh",
                 }}
               >
-                Om oss i EY Skye
+                {t("about.aboutTitle")}
               </Typography>
               <div style={{ padding: "2vh" }}>
-                <Typography>
-                  Vi som jobber i EY Skye har lyst til å bidra med noe mer enn
-                  de konsulent-tjenestene innen teknologi vi leverer som
-                  selskap. Vi får ofte tilgang til opplevelser som er betalt
-                  for, fordi selskapet vårt har mulighet til det. På den måten
-                  er vi heldige. Og det gjør at vi ønsker å gi noe tilbake.
-                  Derfor er det vi ansatte som driver Skye sommercamp sammen. Vi
-                  gjør det som frivillige, og gir av vår tid. Samtidig er vi
-                  overbevist om at det vil være like bra for oss som for barna
-                  som blir med på campen. Vi gleder oss til leirbål, gode
-                  samtaler, måltider sammen som vi selv har laget og fnising i
-                  soveposen før natten kommer.
+                <Typography>{t("about.aboutText1")}</Typography>
+              </div>
+              <div style={{ padding: "2vh" }}>
+                <Typography>{t("about.aboutText2")}</Typography>{" "}
+              </div>
+              <div style={{ padding: "2vh" }}>
+                <Typography>{t("about.aboutText3")}</Typography>{" "}
+              </div>
+            </Grid>
+            <Grid item xs={6} sm={6} style={{ padding: "0.5vh" }}>
+              <div style={{ padding: "2vh" }}>
+                {/* A JSX comment  <img alt="dagligleder" width="100%" src="aboutus.png"></img> */}
+                <Typography
+                  variant="h5"
+                  style={{
+                    color: "#43bc94",
+                    fontWeight: "500",
+                    paddingBottom: "1vh",
+                  }}
+                >
+                  {t("about.oksaneTitle")}
                 </Typography>
-              </div>
-              <div style={{ padding: "2vh" }}>
-                <Typography>
-                  For mange av oss er minner fra sommerferier noe vi aldri vil
-                  glemme. Late dager på svaberget, krabbefiske og båtturer.
-                  Kveldsbad i regnet og latterkramper som skaper varme og nærhet
-                  for resten av uka. En følelse av tilhørighet, samhold og
-                  egenverdi som vi har med oss inn i livet. Vi kommer alle fra
-                  ulike miljøer, familier og steder – med ulike muligheter til å
-                  oppleve sommeren slik den kan være på sitt beste. Gjennom Skye
-                  sommercamp ønsker vi å gi flere barn og unge gode
-                  sommerminner, og særlig til de som ellers ikke ville fått
-                  denne muligheten.
-                </Typography>{" "}
-              </div>
-              <div style={{ padding: "2vh" }}>
-                <Typography>
-                  Alle lederne i Skye sommercamp gjennomgår et
-                  opplæringsprogram, med fokus på sikkerhet og førstehjelp,
-                  gjennomføring av aktiviteter og mellommenneskelig
-                  kommunikasjon. Vi ønsker at hver enkelt deltager skal få gode
-                  opplevelser, oppleve trygghet, felleskap og gode relasjoner
-                  til andre barn og oss voksne.
-                </Typography>{" "}
+                <Typography
+                  style={{
+                    fontWeight: "800",
+                    paddingBottom: "1vh",
+                  }}
+                >
+                  {t("about.oksanaMotto")}
+                </Typography>
+                <Typography>{t("about.oksanaText")}</Typography>
               </div>
             </Grid>
-            <Grid item xs={6} sm={5} style={{ padding: "0.5vh" }}>
-              <div style={{ padding: "2vh" }}>
-                <img alt="dagligleder" width="100%" src="aboutus.png"></img>
-              </div>
-            </Grid>
-            <Grid item sm={4}>
+            <Grid item sm={5}>
               <div style={{ padding: "2vh" }}>
                 <Typography
                   variant="h5"
@@ -92,12 +83,28 @@ const About = () => {
                     paddingBottom: "1vh",
                   }}
                 >
-                  Vi gleder oss!
+                  {t("about.embassy")}
+                </Typography>
+                <Typography>{t("about.embassyText")}</Typography>
+              </div>
+              <div style={{ padding: "2vh" }}>
+                <Typography
+                  variant="h5"
+                  style={{
+                    color: "#43bc94",
+                    fontWeight: "500",
+                    paddingBottom: "1vh",
+                  }}
+                >
+                  {t("about.support")}
                 </Typography>
                 <Typography>
-                  Vennlig hilsen, <br></br>
-                  Tommy Rugsveen <br></br>
-                  Daglig leder i EY Skye
+                  <ul>
+                    <li> {t("about.partner1")}</li>
+                    <li> {t("about.partner2")}</li>
+                    <li> {t("about.partner3")}</li>
+                    <li> {t("about.partner4")}</li>
+                  </ul>
                 </Typography>
               </div>
             </Grid>

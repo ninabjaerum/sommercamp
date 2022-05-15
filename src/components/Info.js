@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const titlesTheme = createTheme();
 
@@ -15,6 +16,7 @@ titlesTheme.typography.h4 = {
 };
 
 const Info = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div>
@@ -24,17 +26,13 @@ const Info = () => {
             style={{ paddingBottom: "2%", color: "#43bc94", fontWeight: "500" }}
           >
             {" "}
-            Overnatting
+            {t("homepage.accomodation")}
           </Typography>
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
-            Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen
-            fin sovehytte i ekte sommercampstil! Her har vi ulike typer rom,
-            blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom.
-            Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for
-            å campe utendørs. Les om dette{" "}
+            {t("homepage.accomodationText")}
             <NavLink to="/praktisk" style={{ color: "#43bc94" }}>
-              her.
+              {t("homepage.accomodationLink")}
             </NavLink>
           </Typography>
           <Typography
@@ -42,15 +40,11 @@ const Info = () => {
             style={{ paddingBottom: "2%", color: "#43bc94", fontWeight: "500" }}
           >
             {" "}
-            Måltider
+            {t("homepage.meals")}
           </Typography>
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
-            Det vil bli servert flere spennende måltider hver dag som passer for
-            alle. Vi ønsker også å inkludere barna i matlagingen hvis det er noe
-            de har lyst til. Det blir matlaging både inne på felleskjøkkenet og
-            utendørs på bål eller grill. Husk å gi beskjed om allergier,
-            intoleranser eller andre hensyn.
+            {t("homepage.mealsText")}
           </Typography>
         </ThemeProvider>
       </div>

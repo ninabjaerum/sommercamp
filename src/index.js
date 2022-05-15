@@ -10,6 +10,8 @@ import Aktiviteter from "./components/Aktiviteter";
 import HomeContainer from "./components/HomeContainer";
 import About from "./components/About";
 
+import "./i18n";
+
 ReactDOM.render(
   <BrowserRouter>
     <Routes>

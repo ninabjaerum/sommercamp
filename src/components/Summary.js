@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { useTranslation } from "react-i18next";
 
 const titlesTheme = createTheme();
 
@@ -14,7 +15,7 @@ titlesTheme.typography.h4 = {
 };
 
 const Summary = () => {
-  //State here
+  const { t } = useTranslation();
 
   return (
     <div>
@@ -29,20 +30,19 @@ const Summary = () => {
             }}
           >
             {" "}
-            Velkommen til sommercamp!
+            {t("homepage.welcomeTitle")}
+          </Typography>
+          <Typography lineHeight="2" style={{ paddingBottom: "1%" }}>
+            {" "}
+            {t("homepage.welcomeText1")}
+          </Typography>
+          <Typography lineHeight="2" style={{ paddingBottom: "1%" }}>
+            {" "}
+            {t("homepage.welcomeText2")}
           </Typography>
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
-            Er du mellom 10-12 år? Har du har lyst til å lære noe nytt og gjøre
-            ting du kanskje ikke har hatt muligheten til tidligere? Da har du
-            kommet til rett sted! <br></br> <br></br> Sommeren 2022 ønsker vi å
-            gjennomføre 4 uker med lek og moro på Jakthytta på Malmøya rett
-            utenfor Stavern. Campen er spesielt for deg som denne sommeren ikke
-            har så mange muligheter for å reise på ferie og Campen er gratis.
-            Hver uke vil vare fra mandag til lørdag. Det blir ca. 20 barn sammen
-            på camp hver uke. For alle barn som er med blir det fem dager fylt
-            med alt fra fotballcup, bading og vannski til matlaging, tegning og
-            andre kreative aktiviteter.
+            {t("homepage.welcomeText3")}
           </Typography>
         </ThemeProvider>
       </div>
