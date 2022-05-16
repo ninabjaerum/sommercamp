@@ -138,6 +138,17 @@ i18n
             registrationTitle: "Registration",
             practical: "Practical",
           },
+          activities: {
+            activityTitle: "How will the days at Skye Summer Camp look?",
+            text1:
+              "Throughout the week it will be possible to participate in various activities. Ranging from football cup, swimming, boardgames and drawing during daytime and evening activities like disco and movie nights. For those who might feel extra adventurous, there will even be opportunities to camp outside.",
+            text2:
+              "We start off each day with breakfast together. Then we schedule one activity before lunch and one after. We hope to spend most of our time playing outside.",
+            text3:
+              "In the evenings we will prepare and eat dinner together. Afterwards we will have time to relax, watch movies and play boardgames etc.",
+            text4:
+              "We will always make sure to have some optional activities in bigger and smaller groups, should someone not wish to participate in something. We strive to adjust all activities to the group, the weather and what the participants prefer.",
+          },
         },
       },
       no: {
@@ -253,6 +264,17 @@ i18n
             practicalInfo: "Praktisk Informasjon",
             registrationTitle: "Påmelding",
             practical: "Praktisk",
+          },
+          activities: {
+            activityTitle: "Hvordan vil dagene på Skye Sommercamp se ut?",
+            text1:
+              "Uken vil bestå av flere spennende aktiviteter, alt fra fotballcup, bading, brettspill og tegning på dagen til kveldsaktiviteter som diskotek og filmkveld. For deg som er ekstra eventyrlysten blir det også mulighet for å sove ute i telt en natt!",
+            text2:
+              "Vi starter hver dag med felles frokost. Deretter legges det opp til en runde med aktiviteter før lunsj, og en etter. Vi satser på at de fleste av lekene og aktivitetene kan foregå utendørs.",
+            text3:
+              "På kveldstid tilbereder og spiser vi et middagsmåltid sammen. På kveldene blir mulighet for avslapping eller filmtitting og annen hygge.",
+            text4:
+              "Det vil alltid være mulig å velge mellom litt ulike aktiviteter både i større og mindre grupper, dersom det er noe man ikke har lyst til å være med på. Vil forsøker å tilpasse aktivitetene til gruppa, været og hva deltakerne har lyst til.",
           },
         },
       },

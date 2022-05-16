@@ -26,10 +26,26 @@ const Aktiviteter = () => {
           <Grid container style={{ paddingTop: "5vh", paddingBottom: "5vh" }}>
             <Grid item xs={12} style={{ padding: "0.5vh" }}>
               <Typography
-                variant="h4"
+                variant="h5"
                 style={{ color: "#43bc94", fontWeight: "500" }}
               >
-                Informasjon kommer
+                {t("activities.activityTitle")}
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <Typography style={{ padding: "1vh" }}>
+                {t("activities.text1")}
+              </Typography>
+              <Typography style={{ padding: "1vh" }}>
+                {t("activities.text2")}
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <Typography style={{ padding: "1vh" }}>
+                {t("activities.text3")}
+              </Typography>
+              <Typography style={{ padding: "1vh" }}>
+                {t("activities.text4")}
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
