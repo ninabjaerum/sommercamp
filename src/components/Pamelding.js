@@ -39,7 +39,7 @@ const Pamelding = () => {
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
-        <SubHeader title="Påmelding"></SubHeader>
+        <SubHeader title={t("captions.registrationTitle")}></SubHeader>
         <Container className="pameld-cont">
           <Grid container style={{ paddingBottom: "15vh" }}>
             <Grid

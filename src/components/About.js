@@ -1,5 +1,5 @@
 import SubHeader from "./SubHeader";
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography, Divider, Chip } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useEffect } from "react";
@@ -21,11 +21,27 @@ const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const themedChip = createTheme({
+    components: {
+      MuiChip: {
+        styleOverrides: {
+          root: {
+            color: "white",
+            backgroundColor: "#43bc94",
+            "&:hover": {
+              background: "white",
+              color: "#43bc94",
+            },
+          },
+        },
+      },
+    },
+  });
 
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
-        <SubHeader title="Om oss"></SubHeader>
+        <SubHeader title={t("homepage.aboutus")}></SubHeader>
         <Container>
           <Grid container style={{ paddingTop: "5vh", paddingBottom: "4vh" }}>
             <Grid item xs={12} style={{ padding: "0.5vh" }}>
@@ -49,31 +65,49 @@ const About = () => {
                 <Typography>{t("about.aboutText3")}</Typography>{" "}
               </div>
             </Grid>
-            <Grid item xs={6} sm={6} style={{ padding: "0.5vh" }}>
+            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
               <div style={{ padding: "2vh" }}>
+                <Divider>
+                  <ThemeProvider theme={themedChip}>
+                    <Chip label={t("about.oksana")} backgroundColor="#43bc94" />
+                  </ThemeProvider>
+                </Divider>
                 {/* A JSX comment  <img alt="dagligleder" width="100%" src="aboutus.png"></img> */}
                 <Typography
-                  variant="h5"
+                  variant="h6"
                   style={{
                     color: "#43bc94",
-                    fontWeight: "500",
+                    fontWeight: "600",
                     paddingBottom: "1vh",
+                    paddingTop: "1vh",
+                    textAlign: "center",
                   }}
                 >
                   {t("about.oksaneTitle")}
                 </Typography>
+
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img alt="oksana" width="55%" src="Oksanaportrett.jpg"></img>
+                </div>
                 <Typography
                   style={{
-                    fontWeight: "800",
-                    paddingBottom: "1vh",
+                    paddingTop: "1vh",
+                    textAlign: "center",
                   }}
                 >
                   {t("about.oksanaMotto")}
                 </Typography>
-                <Typography>{t("about.oksanaText")}</Typography>
+                <Typography style={{ paddingTop: "2vh" }}>
+                  {t("about.oksanaText")}
+                </Typography>
               </div>
             </Grid>
-            <Grid item sm={5}>
+            <Grid item sm={6} xs={12}>
               <div style={{ padding: "2vh" }}>
                 <Typography
                   variant="h5"

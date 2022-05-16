@@ -27,8 +27,9 @@ i18n
       en: {
         translation: {
           homepage: {
-            ansatt: "Stine Mari Stange - employee at EY Skye",
-            quote: "We want to...",
+            ansatt: "Anette Jacobsen - employee at EY Skye",
+            quote:
+              "We look forward to participate in creating a positive experience for ukranian families through this camp, and hope we can provide some peace of mind for both young and adults this summer! ",
             welcomeTitle: "Welcome to summer camp!",
             welcomeText1:
               "In the summer of 2022 we will carry out a 5 day summer holiday for children and youngsters from Ukraine who are new to Norway. ",
@@ -116,26 +117,35 @@ i18n
               "All Skye Summer Camp instructors undergo a training program, focusing on safety and first aid. Translators and instructors with Ukrainian background will join the camp. We want each participant to have good experiences, experience safety, community and good relations with other children and us adults. ",
             embassy:
               "Skye summer camp is recognized by the Ukrainian Embassy in Norway ",
-            embassyText: "TBD",
+            embassyText: "More information will be given",
+            oksana: "Oksana Huk",
             oksaneTitle:
-              "Oksana Huk will be the main responsible at the Summercamp all 4 periods.  ",
+              "Oksana Huk will be the main responsible at the summer camp all 4 periods.  ",
             oksanaMotto:
               "Life credo: 'Love what you do and go forward step by step!' ",
             oksanaText:
-              "I am a history teacher and have PhD in philosophy.When I lived in Ukraine, I worked as a teacher in a primary school, in a gymnasium, and at a university with children and youth of different ages (working experience more than 25 years). Currently I’m working as a teacher at the Grefsen School in Oslo with children from Ukraine. My main task is to help Ukrainian children adapt to the new environment. I speak Ukrainian, Russian, English, and Norwegian. In my opinion, teaching is very important profession. The most important is to help children to develop their skills and talents in order to find their own path to self-realization.",
+              " - 'I am a history teacher and have PhD in philosophy.When I lived in Ukraine, I worked as a teacher in a primary school, in a gymnasium, and at a university with children and youth of different ages (working experience more than 25 years). Currently I’m working as a teacher at the Grefsen School in Oslo with children from Ukraine. My main task is to help Ukrainian children adapt to the new environment. I speak Ukrainian, Russian, English, and Norwegian. In my opinion, teaching is very important profession. The most important is to help children to develop their skills and talents in order to find their own path to self-realization.'",
             support: "Skye Summer Camp is organized with the support of ",
             partner1: "Gjensidigestiftelsen",
             partner2: "Storebrandstifdtelsen",
             partner3: "Coop",
             partner4: "Matbørsen",
           },
+          captions: {
+            activitiesTitle: "Activities",
+            activitiesTitle2: "Activites and daily schedule",
+            practicalInfo: "Practical Information",
+            registrationTitle: "Registration",
+            practical: "Practical",
+          },
         },
       },
       no: {
         translation: {
           homepage: {
-            ansatt: "Stine Mari Stange - ansatt i EY Skye",
-            quote: "Vi vil gi barna en sommer for livet",
+            ansatt: "Anette Jacobsen - ansatt i EY Skye",
+            quote:
+              "Vi gleder oss til å arrangere en positiv opplevelse for ukrainske familier med denne campen, og håper på å kunne bidra med et lite pusterom for store og små i sommer!",
             welcomeTitle: "Velkommen til sommercamp!",
             welcomeText1:
               "Sommeren 2022 vil vi gjennomføre 5 dagers sommerferie for barn og unge fra Ukraina som er nye i Norge. ",
@@ -223,18 +233,26 @@ i18n
               "Alle lederne i Skye sommercamp gjennomgår et opplæringsprogram, med fokus på sikkerhet og førstehjelp. Det vil være med tolk og ledere med Ukrainsk bakgrunn. Vi ønsker at hver enkelt deltager skal få gode opplevelser, oppleve trygghet, felleskap og gode relasjoner til andre barn og oss voksne.",
             embassy:
               "Skye sommercamp er anerkjent av den Ukrainske Ambassaden i Norge. ",
-            embassyText: "TBD",
+            embassyText: "Mer informasjon kommer",
+            oksana: "Oksana Huk",
             oksaneTitle:
               "Oksana Huk vil være hovedansvarlig på Skye Sommercamp alle ukene.",
             oksanaMotto:
               "Livsmotto: 'Elsk det du gjør og gå frem steg for steg!' ",
             oksanaText:
-              "Jeg er utdannet i historie og filosofi. Da jeg bodde i Ukraina, jobbet jeg som lærer på ungdomsskolen, videregående skolen og på universitetet. Jeg har mer enn 25 år erfaring med undervisning på skolen med barn og ungdom. Nå jobber jeg som lærer på Grefsen skolen i Oslo med ukrainske barn. Min hovedoppgave er å hjelpe dem å finne seg til rette i det nye miljøet. Jeg snakker ukrainsk, russisk, engelsk og norsk.Etter min mening er det viktigste å hjelpe barn til å oppdage sine evner og talenter, og finne sin egen vei til selvrealisering.",
+              " - 'Jeg er utdannet i historie og filosofi. Da jeg bodde i Ukraina, jobbet jeg som lærer på ungdomsskolen, videregående skolen og på universitetet. Jeg har mer enn 25 år erfaring med undervisning på skolen med barn og ungdom. Nå jobber jeg som lærer på Grefsen skolen i Oslo med ukrainske barn. Min hovedoppgave er å hjelpe dem å finne seg til rette i det nye miljøet. Jeg snakker ukrainsk, russisk, engelsk og norsk.Etter min mening er det viktigste å hjelpe barn til å oppdage sine evner og talenter, og finne sin egen vei til selvrealisering.'",
             support: "Skye Sommercamp arrangeres med støtte fra ",
             partner1: "Gjensidigestiftelsen",
             partner2: "Storebrandstifdtelsen",
             partner3: "Coop",
             partner4: "Matbørsen",
+          },
+          captions: {
+            activitiesTitle: "Aktiviteter",
+            activitiesTitle2: "Aktiviterer og dagsplan for campen",
+            practicalInfo: "Praktisk Informasjon",
+            registrationTitle: "Påmelding",
+            practical: "Praktisk",
           },
         },
       },

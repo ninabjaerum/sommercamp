@@ -51,7 +51,7 @@ const HomeContainer = () => {
           </Divider>
           <Typography
             variant="h6"
-            style={{ paddingTop: "2%", paddingBottom: "2%" }}
+            style={{ paddingTop: "3%", paddingBottom: "3%" }}
           >
             {t("homepage.quote")}
           </Typography>

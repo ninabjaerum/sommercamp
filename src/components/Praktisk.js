@@ -25,7 +25,7 @@ const Praktisk = () => {
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
-        <SubHeader title="Praktisk informasjon"></SubHeader>
+        <SubHeader title={t("captions.practicalInfo")}></SubHeader>
         <Container>
           <Grid container style={{ paddingTop: "5vh", paddingBottom: "20vh" }}>
             <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>

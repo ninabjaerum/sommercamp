@@ -29,7 +29,7 @@ const Footer = () => {
             justifyContent: "center",
           }}
         >
-          <img src="/logotest.png" alt="logo" width="40%" />
+          <img src="/mainlogoblack.png" alt="logo" width="40%" />
         </Grid>
       </Grid>
     </div>

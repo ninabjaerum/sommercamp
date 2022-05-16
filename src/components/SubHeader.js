@@ -1,6 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import { Link, NavLink } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { useTranslation } from "react-i18next";
 
 const subheadTheme = createTheme();
 
@@ -15,6 +16,7 @@ subheadTheme.typography.h3 = {
 };
 
 const SubHeader = (props) => {
+  const { t } = useTranslation();
   return (
     <div className="subheader-cont">
       <ThemeProvider theme={subheadTheme}>
@@ -40,7 +42,7 @@ const SubHeader = (props) => {
             <Grid item xs={3}>
               <div className="subheader-logo">
                 <NavLink to="/">
-                  <img src="/logotest.png" alt="logo" width="60%" />
+                  <img src="/mainlogoblack.png" alt="logo" width="60%" />
                 </NavLink>
               </div>
             </Grid>
@@ -49,16 +51,16 @@ const SubHeader = (props) => {
             <div className="nav-cont">
               <nav>
                 <Link to="/pamelding" className="nav-item">
-                  Påmelding
+                  {t("captions.registrationTitle")}
                 </Link>
                 <Link to="/praktisk" className="nav-item">
-                  Praktisk
+                  {t("captions.practical")}
                 </Link>
                 <Link to="/aktiviteter" className="nav-item">
-                  Aktiviteter
+                  {t("captions.activitiesTitle")}
                 </Link>
                 <Link to="/om" className="nav-item">
-                  Om Oss
+                  {t("homepage.aboutus")}
                 </Link>
               </nav>
             </div>

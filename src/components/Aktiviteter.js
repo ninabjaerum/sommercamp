@@ -2,6 +2,7 @@ import SubHeader from "./SubHeader";
 import { Container, Grid, Typography } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { useTranslation } from "react-i18next";
 const titlesTheme = createTheme();
 
 titlesTheme.typography.h4 = {
@@ -15,12 +16,12 @@ titlesTheme.typography.h4 = {
 };
 
 const Aktiviteter = () => {
-  //state
+  const { t } = useTranslation();
 
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
-        <SubHeader title="Aktiviteter på campen"></SubHeader>
+        <SubHeader title={t("captions.activitiesTitle2")}></SubHeader>
         <Container className="">
           <Grid container style={{ paddingTop: "5vh", paddingBottom: "5vh" }}>
             <Grid item xs={12} style={{ padding: "0.5vh" }}>
