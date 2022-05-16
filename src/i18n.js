@@ -54,7 +54,7 @@ i18n
               "Ukrainian children and youngsters aged 10-15 can apply to join Skye Summer Camp. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
             text2: "Participation at Skye Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
-            link: "linked here ",
+            reglink: "linked here ",
             text5:
               "or the button below. The deadline for signing up is (..) and we will contact you as soon as possible.",
             text4:
@@ -140,13 +140,13 @@ i18n
           },
           activities: {
             activityTitle: "How will the days at Skye Summer Camp look?",
-            text1:
+            acttext1:
               "Throughout the week it will be possible to participate in various activities. Ranging from football cup, swimming, boardgames and drawing during daytime and evening activities like disco and movie nights. For those who might feel extra adventurous, there will even be opportunities to camp outside.",
-            text2:
+            acttext2:
               "We start off each day with breakfast together. Then we schedule one activity before lunch and one after. We hope to spend most of our time playing outside.",
-            text3:
+            acttext3:
               "In the evenings we will prepare and eat dinner together. Afterwards we will have time to relax, watch movies and play boardgames etc.",
-            text4:
+            acttext4:
               "We will always make sure to have some optional activities in bigger and smaller groups, should someone not wish to participate in something. We strive to adjust all activities to the group, the weather and what the participants prefer.",
           },
         },
@@ -181,7 +181,7 @@ i18n
               "Ukrainske barn og unge i alderen 10-15 kan søke om å få være med på Skye sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.",
             text2: "Deltagelse på Skye sommercamp er gratis. ",
             text3: "For påmelding kan du bruke skjemaet her ",
-            link: "her",
+            reglink: "her",
             text5:
               " eller knappen under. Fristen for å melde seg på er (..) og deretter vil vi ta kontakt forløpende. ",
             text4:
@@ -267,90 +267,14 @@ i18n
           },
           activities: {
             activityTitle: "Hvordan vil dagene på Skye Sommercamp se ut?",
-            text1:
+            acttext1:
               "Uken vil bestå av flere spennende aktiviteter, alt fra fotballcup, bading, brettspill og tegning på dagen til kveldsaktiviteter som diskotek og filmkveld. For deg som er ekstra eventyrlysten blir det også mulighet for å sove ute i telt en natt!",
-            text2:
+            acttext2:
               "Vi starter hver dag med felles frokost. Deretter legges det opp til en runde med aktiviteter før lunsj, og en etter. Vi satser på at de fleste av lekene og aktivitetene kan foregå utendørs.",
-            text3:
+            acttext3:
               "På kveldstid tilbereder og spiser vi et middagsmåltid sammen. På kveldene blir mulighet for avslapping eller filmtitting og annen hygge.",
-            text4:
+            acttext4:
               "Det vil alltid være mulig å velge mellom litt ulike aktiviteter både i større og mindre grupper, dersom det er noe man ikke har lyst til å være med på. Vil forsøker å tilpasse aktivitetene til gruppa, været og hva deltakerne har lyst til.",
-          },
-        },
-      },
-      ukr: {
-        translation: {
-          homepage: {
-            ansatt: "Ukrania",
-            quote: "We want to...",
-            welcomeTitle: "",
-            welcomeText1: "",
-            welcomeText2: "",
-            welcomeText3: "",
-            accomodation: "",
-            accomodationText: "",
-            accomodationLink: "Read about this here.",
-            meals: "",
-            mealsText: "",
-            aboutus: "",
-            aboutusText: "",
-            aboutButton: "Read more about us here",
-          },
-          pamelding: {
-            title: "How do I sign up?",
-            text1: "",
-            text2: "",
-            text3: "To register, you can use the form ",
-            link: "here ",
-            text5:
-              "or the button below. The deadline for signing up is (..) and we will contact you as soon as possible.",
-            text4: "",
-            link: "here",
-            bullet1: "",
-            bullet2: "",
-            button: "",
-            expYou: "",
-            bullet3: "",
-            bullet4: "",
-            bullet5: "",
-            expUs: "",
-            bullet6: "",
-            bullet7: "",
-            bullet8: "",
-          },
-          practical: {
-            accomodationTitle: "Accomodation",
-            accomText1: "",
-            accomText2: "",
-            transportTitle: "",
-            transportText: "",
-            securityTitle: "",
-            securityText: "",
-            communicationTitle: "",
-            communicationText1: "",
-            communicationText2: "",
-            pakkelisteTitle: "",
-            pakktext1: "",
-            pakktext2: "",
-            pakktext3: "",
-            pakktext4: "",
-            pakktext5: "",
-          },
-          about: {
-            aboutTitle: "",
-            aboutText1: "",
-            aboutText2: "",
-            aboutText3: "",
-            embassy: "",
-            embassyText: "",
-            oksaneTitle: "",
-            oksanaMotto: "",
-            oksanaText: "",
-            support: "",
-            partner1: "Gjensidigestiftelsen",
-            partner2: "Storebrandstifdtelsen",
-            partner3: "Coop",
-            partner4: "Matbørsen",
           },
         },
       },

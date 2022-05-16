@@ -34,18 +34,18 @@ const Aktiviteter = () => {
             </Grid>
             <Grid item xs={12} sm={6}>
               <Typography style={{ padding: "1vh" }}>
-                {t("activities.text1")}
+                {t("activities.acttext1")}
               </Typography>
               <Typography style={{ padding: "1vh" }}>
-                {t("activities.text2")}
+                {t("activities.acttext2")}
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
               <Typography style={{ padding: "1vh" }}>
-                {t("activities.text3")}
+                {t("activities.acttext3")}
               </Typography>
               <Typography style={{ padding: "1vh" }}>
-                {t("activities.text4")}
+                {t("activities.acttext4")}
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>

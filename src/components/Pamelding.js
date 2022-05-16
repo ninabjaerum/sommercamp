@@ -64,7 +64,7 @@ const Pamelding = () => {
               <Typography>
                 {t("pamelding.text3")}
                 <NavLink to="/" style={{ color: "#43bc94" }}>
-                  {t("pamelding.link")}
+                  {t("pamelding.reglink")}
                 </NavLink>{" "}
                 {t("pamelding.text5")}
                 <div style={{ paddingTop: "2vh", paddingBottom: "2vh" }}>

@@ -5,7 +5,6 @@ import Summary from "./Summary";
 import Info from "./Info";
 import LongText from "./LongText";
 import { useTranslation } from "react-i18next";
-import i18n from "../i18n";
 
 const HomeContainer = () => {
   const { t } = useTranslation();
