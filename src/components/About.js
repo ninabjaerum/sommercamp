@@ -4,6 +4,9 @@ import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Modal, ModalContent } from "./Modal";
+import { useState } from "react";
+
 const titlesTheme = createTheme();
 
 titlesTheme.typography.h4 = {
@@ -16,8 +19,16 @@ titlesTheme.typography.h4 = {
   },
 };
 
+const holder = {
+  height: "250px",
+  margin: "auto",
+  display: "block",
+};
+
 const About = () => {
   const { t } = useTranslation();
+  const [isOpen, setIsopen] = useState(false);
+  const showModal = () => setIsopen((prev) => !prev);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -72,7 +83,7 @@ const About = () => {
                     <Chip label={t("about.oksana")} backgroundColor="#43bc94" />
                   </ThemeProvider>
                 </Divider>
-                {/* A JSX comment  <img alt="dagligleder" width="100%" src="aboutus.png"></img> */}
+
                 <Typography
                   variant="h6"
                   style={{
@@ -120,6 +131,22 @@ const About = () => {
                   {t("about.embassy")}
                 </Typography>
                 <Typography>{t("about.embassyText")}</Typography>
+                <div>
+                  <Modal onOpen={showModal}>
+                    <div className="holder">
+                      <img
+                        src="approval.jpg"
+                        alt="approval letter"
+                        style={holder}
+                      />
+                    </div>
+                  </Modal>
+                  {isOpen && (
+                    <ModalContent onClose={() => setIsopen(false)}>
+                      <img src="approval.jpg" alt="approval letter" />
+                    </ModalContent>
+                  )}
+                </div>
               </div>
               <div style={{ padding: "2vh" }}>
                 <Typography

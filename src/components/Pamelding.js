@@ -3,7 +3,6 @@ import { Container, Grid, Typography } from "@mui/material";
 import Footer from "./Footer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Button from "@mui/material/Button";
-import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const titlesTheme = createTheme();
@@ -36,6 +35,7 @@ const themeButton = createTheme({
 });
 const Pamelding = () => {
   const { t } = useTranslation();
+
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
@@ -63,9 +63,16 @@ const Pamelding = () => {
               <br></br>
               <Typography>
                 {t("pamelding.text3")}
-                <NavLink to="/" style={{ color: "#43bc94" }}>
+
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILKQG4eaEWHtMpXc_VArk-PlUMDhDSlhPQjM0Mk9HOUVTUEtVRVdXQzlNUy4u "
+                  style={{ color: "#43bc94" }}
+                >
                   {t("pamelding.reglink")}
-                </NavLink>{" "}
+                </a>
+
                 {t("pamelding.text5")}
                 <div style={{ paddingTop: "2vh", paddingBottom: "2vh" }}>
                   {t("pamelding.text4")}
@@ -73,7 +80,16 @@ const Pamelding = () => {
               </Typography>
               <div style={{ paddingTop: "2vh" }}>
                 <ThemeProvider theme={themeButton}>
-                  <Button variant="contained">{t("pamelding.button")}</Button>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILKQG4eaEWHtMpXc_VArk-PlUMDhDSlhPQjM0Mk9HOUVTUEtVRVdXQzlNUy4u "
+                    style={{ color: "#43bc94" }}
+                  >
+                    <Button variant="contained">
+                      {t("pamelding.button")}{" "}
+                    </Button>
+                  </a>
                 </ThemeProvider>
               </div>
               <div>

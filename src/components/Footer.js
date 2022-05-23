@@ -1,7 +1,8 @@
 import { Grid, Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  //State here
+  const { t } = useTranslation();
 
   return (
     <div className="footer-cont">
@@ -16,9 +17,9 @@ const Footer = () => {
           }}
         >
           <div>
-            <Typography>Kontaktinformasjon </Typography>
-            <Typography>E-post: PLACEHOLDER@mail.no </Typography>
-            <Typography>Telefon: +47 123 45 678</Typography>
+            <Typography>{t("footer.footerTitle")} </Typography>
+            <Typography>{t("footer.footertext1")} </Typography>
+            <Typography>{t("footer.footertext2")}</Typography>
           </div>
         </Grid>
         <Grid

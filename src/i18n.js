@@ -32,18 +32,18 @@ i18n
               "We look forward to participate in creating a positive experience for ukranian families through this camp, and hope we can provide some peace of mind for both young and adults this summer! ",
             welcomeTitle: "Welcome to summer camp!",
             welcomeText1:
-              "In the summer of 2022 we will carry out a 5 day summer holiday for children and youngsters from Ukraine who are new to Norway. ",
+              "In the summer of 2022 we will carry out a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
             welcomeText2:
               "Are you between the ages of 10 and 15? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
             welcomeText3:
               "The camp is free and is carried out 4 times at Jakthytta on Malmøya outside Stavern. Each camp week lasts from Monday to Friday, with 20-25 children and youngsters along with instructors from both Ukraine and Norway. We hope that the summer camp can provide a place to relax and create good memories for the participants.",
             accomodation: "Accommodation",
             accomodationText:
-              "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. If someone should feel extra adventurous, there will also be opportunities to camp outdoors. Read more about this ",
+              "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. If someone should feel extra adventurous, there will also be opportunities to camp outdoors. Read more about this ",
             accomodationLink: "here.",
             meals: "Meals",
             mealsText:
-              "Several meals will be served every day to suit everyone. We also want to include the children in the cooking activities if this is something they wish to do. There will be cooking both in the common kitchen and outdoors on the barbecue. Remember to notify us about allergies, intolerances, or other considerations.",
+              "Several meals will be served every day to suit everyone. We also want to include the children in the cooking activities if this is something they wish to do. There will be cooking both in the common kitchen and outdoors on the barbecue. Remember to notify us about allergies, intolerances, or other considerations in the registration form.",
             aboutus: "About Us",
             aboutusText: "TBD",
             aboutButton: "Read more about us here",
@@ -56,7 +56,7 @@ i18n
             text3: "To register, you can use the form ",
             reglink: "linked here ",
             text5:
-              "or the button below. The deadline for signing up is (..) and we will contact you as soon as possible.",
+              "or the button below. Please sign up as soon as possible, the registration form will be available until all spots are filled.",
             text4:
               "We follow the Privacy Act and do not store information for which permission has not been granted.  ",
             bullet1:
@@ -110,14 +110,15 @@ i18n
           about: {
             aboutTitle: "About Us",
             aboutText1:
-              "We at EY Skye want to contribute something more than the consulting services in technology we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY Skye, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
+              "We at EY Skye want to contribute with something more than the consulting services in technology we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY Skye, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
             aboutText2:
               "For many of us, memories of summer holidays are something we will never forget. Lazy days on the beach, crab fishing and boat trips. Evening swims in the rain and laughs that create comfort and warmth throughout the rest of the week. A sense of belonging, unity and security that we bring with us further in life. We all come from different environments, families and places, and have a lot to learn from each other. Through Skye Summer Camp, we want to give children and youngsters who have had to flee their home country a place to relax, the opportunity to play and participate in activities together with others in a similar situation.",
             aboutText3:
               "All Skye Summer Camp instructors undergo a training program, focusing on safety and first aid. Translators and instructors with Ukrainian background will join the camp. We want each participant to have good experiences, experience safety, community and good relations with other children and us adults. ",
             embassy:
               "Skye summer camp is recognized by the Ukrainian Embassy in Norway ",
-            embassyText: "More information will be given",
+            embassyText:
+              "Approval letter from Ukranian Embassy in Norway. Click on the image to view.",
             oksana: "Oksana Huk",
             oksaneTitle:
               "Oksana Huk will be the main responsible at the summer camp all 4 periods.  ",
@@ -149,6 +150,12 @@ i18n
             acttext4:
               "We will always make sure to have some optional activities in bigger and smaller groups, should someone not wish to participate in something. We strive to adjust all activities to the group, the weather and what the participants prefer.",
           },
+          footer: {
+            footerTitle: "Contact information",
+            footertext1:
+              "E-mail: Anette.Jacobsen@skye.ey.com / Inger.Saxebol@skye.ey.com",
+            footertext2: "Phone: +47 45062921 /+47 481 55 226",
+          },
         },
       },
       no: {
@@ -159,18 +166,18 @@ i18n
               "Vi gleder oss til å arrangere en positiv opplevelse for ukrainske familier med denne campen, og håper på å kunne bidra med et lite pusterom for store og små i sommer!",
             welcomeTitle: "Velkommen til sommercamp!",
             welcomeText1:
-              "Sommeren 2022 vil vi gjennomføre 5 dagers sommerferie for barn og unge fra Ukraina som er nye i Norge. ",
+              "Sommeren 2022 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
             welcomeText2:
               "Er du mellom 10 og 15 år? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
             welcomeText3:
               "Campen er gratis og gjennomføres 4 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
             accomodation: "Overnatting",
             accomodationText:
-              "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for å campe utendørs. Les mer om dette ",
+              "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for å campe utendørs. Les mer om dette ",
             accomodationLink: "her.",
             meals: "Måltider",
             mealsText:
-              "Det vil bli servert flere måltider hver dag som passer for alle. Vi ønsker også å inkludere barna i matlagingen hvis det er noe de har lyst til. Det blir matlaging både inne på felleskjøkkenet og utendørs på bål eller grill. Husk å gi beskjed om allergier, intoleranser eller andre hensyn.",
+              "Det vil bli servert flere måltider hver dag som passer for alle. Vi ønsker også å inkludere barna i matlagingen hvis det er noe de har lyst til. Det blir matlaging både inne på felleskjøkkenet og utendørs på bål eller grill. Husk å gi beskjed om allergier, intoleranser eller andre hensyn i påmeldingsskjemaet.",
             aboutus: "Om Oss",
             aboutusText: "TBD",
             aboutButton: "Les mer om oss her",
@@ -180,10 +187,10 @@ i18n
             text1:
               "Ukrainske barn og unge i alderen 10-15 kan søke om å få være med på Skye sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.",
             text2: "Deltagelse på Skye sommercamp er gratis. ",
-            text3: "For påmelding kan du bruke skjemaet her ",
+            text3: "For påmelding kan du bruke skjemaet ",
             reglink: "her",
             text5:
-              " eller knappen under. Fristen for å melde seg på er (..) og deretter vil vi ta kontakt forløpende. ",
+              " eller knappen under. Skjemaet vil være tilgjengelig inntill alle plassene er fyllt opp.",
             text4:
               "Vi følger personvernloven, og lagrer ikke informasjon som det ikke er gitt tillatelse til.",
 
@@ -244,7 +251,8 @@ i18n
               "Alle lederne i Skye sommercamp gjennomgår et opplæringsprogram, med fokus på sikkerhet og førstehjelp. Det vil være med tolk og ledere med Ukrainsk bakgrunn. Vi ønsker at hver enkelt deltager skal få gode opplevelser, oppleve trygghet, felleskap og gode relasjoner til andre barn og oss voksne.",
             embassy:
               "Skye sommercamp er anerkjent av den Ukrainske Ambassaden i Norge. ",
-            embassyText: "Mer informasjon kommer",
+            embassyText:
+              "Bekreftelse fra den Ukrainske Ambassade. Klikk på bildet for å forstørre",
             oksana: "Oksana Huk",
             oksaneTitle:
               "Oksana Huk vil være hovedansvarlig på Skye Sommercamp alle ukene.",
@@ -275,6 +283,12 @@ i18n
               "På kveldstid tilbereder og spiser vi et middagsmåltid sammen. På kveldene blir mulighet for avslapping eller filmtitting og annen hygge.",
             acttext4:
               "Det vil alltid være mulig å velge mellom litt ulike aktiviteter både i større og mindre grupper, dersom det er noe man ikke har lyst til å være med på. Vil forsøker å tilpasse aktivitetene til gruppa, været og hva deltakerne har lyst til.",
+          },
+          footer: {
+            footerTitle: "Kontaktinformasjon",
+            footertext1:
+              "E-post: Anette.Jacobsen@skye.ey.com / Inger.Saxebol@skye.ey.com",
+            footertext2: "Telefon: +47 45062921 /+47 481 55 226",
           },
         },
       },
