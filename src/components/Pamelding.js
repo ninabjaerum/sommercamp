@@ -58,38 +58,31 @@ const Pamelding = () => {
               >
                 {t("pamelding.title")}
               </Typography>
+              <Typography
+                variant="h6"
+                style={{
+                  color: "#F26157",
+                  fontWeight: "700",
+                  paddingBottom: "2vh",
+                }}
+              >
+                {" "}
+                {t("pamelding.fullybooked")}
+              </Typography>{" "}
+              <br></br>
               <Typography> {t("pamelding.text1")}</Typography> <br></br>
               <Typography> {t("pamelding.text2")}</Typography>
               <br></br>
               <Typography>
-                {t("pamelding.text3")}
-
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILKQG4eaEWHtMpXc_VArk-PlUMDhDSlhPQjM0Mk9HOUVTUEtVRVdXQzlNUy4u "
-                  style={{ color: "#43bc94" }}
-                >
-                  {t("pamelding.reglink")}
-                </a>
-
-                {t("pamelding.text5")}
-                <div style={{ paddingTop: "2vh", paddingBottom: "2vh" }}>
+                <div style={{ paddingBottom: "2vh" }}>
                   {t("pamelding.text4")}
                 </div>
               </Typography>
               <div style={{ paddingTop: "2vh" }}>
                 <ThemeProvider theme={themeButton}>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILKQG4eaEWHtMpXc_VArk-PlUMDhDSlhPQjM0Mk9HOUVTUEtVRVdXQzlNUy4u "
-                    style={{ color: "#43bc94" }}
-                  >
-                    <Button variant="contained">
-                      {t("pamelding.button")}{" "}
-                    </Button>
-                  </a>
+                  <Button variant="contained" disabled={true}>
+                    {t("pamelding.button")}{" "}
+                  </Button>
                 </ThemeProvider>
               </div>
               <div>

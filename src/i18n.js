@@ -78,6 +78,8 @@ i18n
               "Skye Summer Camp instructors are present to be fellow human beings and good adults, and they are not professionals. They will have access to guidance from a psychologist if needed",
             bullet8:
               "Skye Summer Camp instructors are available to children throughout their stay, both day and night",
+            fullybooked:
+              "The camp is now fully booked and it is unfortunately not possible to sign up. ",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -213,6 +215,8 @@ i18n
               "Skye Sommercamp instruktørene er til stede for å være medmennesker og gode voksne, og de er ikke fagpersoner. De vil ha tilgang til veiledning fra psykolog ved behov",
             bullet8:
               "Skye sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
+            fullybooked:
+              "Campen er nå fulltegnet og det er dessverre ikke mulig å melde seg på. ",
           },
           practical: {
             accomodationTitle: "Overnstting",
