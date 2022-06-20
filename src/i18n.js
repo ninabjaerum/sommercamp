@@ -129,7 +129,7 @@ i18n
             oksanaText:
               " - 'I am a history teacher and have PhD in philosophy.When I lived in Ukraine, I worked as a teacher in a primary school, in a gymnasium, and at a university with children and youth of different ages (working experience more than 25 years). Currently I’m working as a teacher at the Grefsen School in Oslo with children from Ukraine. My main task is to help Ukrainian children adapt to the new environment. I speak Ukrainian, Russian, English, and Norwegian. In my opinion, teaching is very important profession. The most important is to help children to develop their skills and talents in order to find their own path to self-realization.'",
             support: "Skye Summer Camp is organized with the support of ",
-            partner1: "Gjensidigestiftelsen",
+            partner1: "Fremtind",
             partner2: "Storebrandstifdtelsen",
             partner3: "Coop",
             partner4: "Matbørsen",
@@ -265,7 +265,7 @@ i18n
             oksanaText:
               " - 'Jeg er utdannet i historie og filosofi. Da jeg bodde i Ukraina, jobbet jeg som lærer på ungdomsskolen, videregående skolen og på universitetet. Jeg har mer enn 25 år erfaring med undervisning på skolen med barn og ungdom. Nå jobber jeg som lærer på Grefsen skolen i Oslo med ukrainske barn. Min hovedoppgave er å hjelpe dem å finne seg til rette i det nye miljøet. Jeg snakker ukrainsk, russisk, engelsk og norsk.Etter min mening er det viktigste å hjelpe barn til å oppdage sine evner og talenter, og finne sin egen vei til selvrealisering.'",
             support: "Skye Sommercamp arrangeres med støtte fra ",
-            partner1: "Gjensidigestiftelsen",
+            partner1: "Fremtind",
             partner2: "Storebrandstifdtelsen",
             partner3: "Coop",
             partner4: "Matbørsen",

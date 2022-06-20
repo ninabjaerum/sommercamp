@@ -164,6 +164,7 @@ const About = () => {
                     <li> {t("about.partner2")}</li>
                     <li> {t("about.partner3")}</li>
                     <li> {t("about.partner4")}</li>
+                    <li> {t("about.partner1")}</li>
                   </ul>
                 </Typography>
               </div>
