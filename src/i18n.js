@@ -170,7 +170,7 @@ i18n
             welcomeText1:
               "Sommeren 2022 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
             welcomeText2:
-              "Er du mellom 10 og 15 år? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
+              "Er du mellom 10 og 13 år? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
             welcomeText3:
               "Campen er gratis og gjennomføres 4 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
             accomodation: "Overnatting",
