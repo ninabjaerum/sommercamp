@@ -32,14 +32,14 @@ i18n
               "We look forward to participate in creating a positive experience for ukranian families through this camp, and hope we can provide some peace of mind for both young and adults this summer! ",
             welcomeTitle: "Welcome to summer camp!",
             welcomeText1:
-              "In the summer of 2022 we will carry out a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
+              "In the summer of 2023 we will carry out a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
             welcomeText2:
-              "Are you between the ages of 10 and 15? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
+              "Are you between the ages of 9 and 13, born in 2013, 2012, 2011 or 2010?? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
             welcomeText3:
               "The camp is free and is carried out 4 times at Jakthytta on Malmøya outside Stavern. Each camp week lasts from Monday to Friday, with 20-25 children and youngsters along with instructors from both Ukraine and Norway. We hope that the summer camp can provide a place to relax and create good memories for the participants.",
             accomodation: "Accommodation",
             accomodationText:
-              "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. If someone should feel extra adventurous, there will also be opportunities to camp outdoors. Read more about this ",
+              "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. ",
             accomodationLink: "here.",
             meals: "Meals",
             mealsText:
@@ -54,6 +54,10 @@ i18n
               "Ukrainian children and youngsters aged 10-15 can apply to join Skye Summer Camp. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
             text2: "Participation at Skye Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
+            responsible:
+              "It is the participant's responsibility to be able to meet on time at the agreed meeting point. ",
+            meetLarvik:
+              "Participants can also meet directly at camp location in Larvik",
             reglink: "linked here ",
             text5:
               "or the button below. Please sign up as soon as possible, the registration form will be available until all spots are filled.",
@@ -79,7 +83,7 @@ i18n
             bullet8:
               "Skye Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The camp is now fully booked and it is unfortunately not possible to sign up. ",
+              "The registation form will be available at a later time ",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -89,6 +93,12 @@ i18n
             transportTitle: "Transportation",
             transportText:
               "We wish to travel as a group all the way to Malmøya. Meeting point and attendance will be in the Oslo area on Monday the week you are going to the camp. We will take a bus to Larvik and then a boat ride to the island, where we finally go together to the cabin. More information about time and place will be provided.",
+            departure:
+              "Meeting place and time: Monday approximately at 09:00 central Oslo. ",
+            arrival:
+              "Return place and time: Friday approximately at 15:00 central Oslo. ",
+            other:
+              "It is also possible for the participants to meet directly at camp location in Larvik. All participant are responsible for being at the specified meeting point at the set time. ",
             securityTitle: "Safety",
             securityText:
               "The instructors at the summer camp have recently completed first aid and lifesaving lessons. It will be mandatory with a life jacket when we are on a boat and there will always be a lifeguard present when the children swim in the sea. We take the safety of all participants at the camp very seriously and will have strict procedures in place to ensure this safety. It is not a requirement for the participants to swim. More information is coming.",
@@ -122,12 +132,11 @@ i18n
             embassyText:
               "Approval letter from Ukranian Embassy in Norway. Click on the image to view.",
             oksana: "Oksana Huk",
-            oksaneTitle:
-              "Oksana Huk will be the main responsible at the summer camp all 4 periods.  ",
-            oksanaMotto:
-              "Life credo: 'Love what you do and go forward step by step!' ",
-            oksanaText:
-              " - 'I am a history teacher and have PhD in philosophy.When I lived in Ukraine, I worked as a teacher in a primary school, in a gymnasium, and at a university with children and youth of different ages (working experience more than 25 years). Currently I’m working as a teacher at the Grefsen School in Oslo with children from Ukraine. My main task is to help Ukrainian children adapt to the new environment. I speak Ukrainian, Russian, English, and Norwegian. In my opinion, teaching is very important profession. The most important is to help children to develop their skills and talents in order to find their own path to self-realization.'",
+            instructorsTitle:
+              "There will be one main responsible instructor each week on camp, speaking both Norwegian, English and Ukrainian. This year the lead instructor role will be shared between Oksana Huk and Julia Faviritova",
+            instructorsText:
+              "Oksana Huk has more than 25 years experience working in schools, teaching both children and teens. Julia Favoritova works among other things, with traditional Ukranian arts and crafts. She is also experienced in working with children. They both participated in Skye Summer Camp in 2022. ",
+            julia: "Julia Favoritova",
             support: "Skye Summer Camp is organized with the support of ",
             partner1: "Fremtind",
             partner2: "Storebrandstifdtelsen",
@@ -168,14 +177,14 @@ i18n
               "Vi gleder oss til å arrangere en positiv opplevelse for ukrainske familier med denne campen, og håper på å kunne bidra med et lite pusterom for store og små i sommer!",
             welcomeTitle: "Velkommen til sommercamp!",
             welcomeText1:
-              "Sommeren 2022 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
+              "Sommeren 2023 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
             welcomeText2:
-              "Er du mellom 10 og 13 år? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
+              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
             welcomeText3:
               "Campen er gratis og gjennomføres 4 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
             accomodation: "Overnatting",
             accomodationText:
-              "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. Dersom noen er ekstra eventyrlystne, vil det også bli muligheter for å campe utendørs. Les mer om dette ",
+              "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. ",
             accomodationLink: "her.",
             meals: "Måltider",
             mealsText:
@@ -187,9 +196,12 @@ i18n
           pamelding: {
             title: "Hvordan melder jeg meg på?",
             text1:
-              "Ukrainske barn og unge i alderen 10-15 kan søke om å få være med på Skye sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.",
+              "Ukrainske barn og unge i alderen 10-13 år kan søke om å få være med på Skye sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.  ",
             text2: "Deltagelse på Skye sommercamp er gratis. ",
             text3: "For påmelding kan du bruke skjemaet ",
+            responsible:
+              "Deltaker er selv ansvarlig for å komme seg til oppmøtested til avtalt tid. ",
+            meetLarvik: "Eventuelt kan deltaker møte rett på camp i Larvik.",
             reglink: "her",
             text5:
               " eller knappen under. Skjemaet vil være tilgjengelig inntill alle plassene er fyllt opp.",
@@ -215,17 +227,20 @@ i18n
               "Skye Sommercamp instruktørene er til stede for å være medmennesker og gode voksne, og de er ikke fagpersoner. De vil ha tilgang til veiledning fra psykolog ved behov",
             bullet8:
               "Skye sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
-            fullybooked:
-              "Campen er nå fulltegnet og det er dessverre ikke mulig å melde seg på. ",
+            fullybooked: "PÅMELDINGSLENKE KOMMER SENERE",
           },
           practical: {
-            accomodationTitle: "Overnstting",
+            accomodationTitle: "Overnatting",
             accomText1:
               "Malmøya er en idyllisk øy utenfor Stavern med mange bademuligheter, et perfekt sted å samle sommerminner! På Malmøya finner du alt fra nydelige svaberg til frodige eikeskoger. Ikke langt fra sjøen ligger Jakthytta, en stor hytte med hele 32 sengeplasser, stort kjøkken og flere oppholdsrom med god plass. Utenfor hytta er det også flere spennende områder man kan utforske, samt egen fotballbane.",
             accomText2: "Malmøya",
             transportTitle: "Transport",
             transportText:
               "Vi ønsker å reise sammen med felles transport hele veien til Malmøya. Oppmøte vil være i Oslo-området mandagen den uken du skal på tur. Vi tar buss til Larvik og deretter båt til øya, hvor vi til slutt går sammen opp til hytta. Nærmere informasjon om tid og sted vil komme.",
+            departure: "Oppmøtested og tid: mandag kl 0900 sentralt i Oslo. ",
+            arrival: "Retursted og tid: fredag ca kl 1500 sentralt i Oslo. ",
+            other:
+              "Eventuelt kan deltaker møte rett på camp i Larvik. Deltaker er selv ansvarlig for å komme seg til oppmøte sted til avtalt tid. ",
             securityTitle: "Sikkerhet",
             securityText:
               "Lederne på sommercampen har nylig gjennomført førstehjelp- og livredningskurs. Det vil være påbudt med flytevest når vi kjører båt og det vil alltid være badevakt til stede når barna bader i sjøen. Vi tar sikkerheten til alle deltakerne på campen veldig alvorlig og vil ha strenge rutiner for å ivareta denne sikkerheten. Det er ikke et krav at deltagerne kan svømme. Mer informasjon kommer.",
@@ -258,17 +273,16 @@ i18n
             embassyText:
               "Bekreftelse fra den Ukrainske Ambassade. Klikk på bildet for å forstørre",
             oksana: "Oksana Huk",
-            oksaneTitle:
-              "Oksana Huk vil være hovedansvarlig på Skye Sommercamp alle ukene.",
-            oksanaMotto:
-              "Livsmotto: 'Elsk det du gjør og gå frem steg for steg!' ",
-            oksanaText:
-              " - 'Jeg er utdannet i historie og filosofi. Da jeg bodde i Ukraina, jobbet jeg som lærer på ungdomsskolen, videregående skolen og på universitetet. Jeg har mer enn 25 år erfaring med undervisning på skolen med barn og ungdom. Nå jobber jeg som lærer på Grefsen skolen i Oslo med ukrainske barn. Min hovedoppgave er å hjelpe dem å finne seg til rette i det nye miljøet. Jeg snakker ukrainsk, russisk, engelsk og norsk.Etter min mening er det viktigste å hjelpe barn til å oppdage sine evner og talenter, og finne sin egen vei til selvrealisering.'",
+            instructorsTitle:
+              "Det vil være en hovedansvarlig på camp som snakker både norsk, engelsk og ukrainsk. I år deles denne oppgaven mellom Oksana Huk og  Julia Favoritova. ",
+            instructorsText:
+              "Oksana Huk har mer enn 25 års erfaring med undervisning i skolen for barn og unge. Julia Favoritova jobber blant annet med tradisjonelt ukrainsk håndverk og har lang erfaring med å jobbe med barn og unge. Begge deltok på Skye Sommercamp 2022. ",
+            julia: "Julia Favoritova",
             support: "Skye Sommercamp arrangeres med støtte fra ",
-            partner1: "Fremtind",
-            partner2: "Storebrandstifdtelsen",
-            partner3: "Coop",
-            partner4: "Matbørsen",
+            partner1: "1",
+            partner2: "2",
+            partner3: "3",
+            partner4: "4",
           },
           captions: {
             activitiesTitle: "Aktiviteter",
@@ -280,7 +294,7 @@ i18n
           activities: {
             activityTitle: "Hvordan vil dagene på Skye Sommercamp se ut?",
             acttext1:
-              "Uken vil bestå av flere spennende aktiviteter, alt fra fotballcup, bading, brettspill og tegning på dagen til kveldsaktiviteter som diskotek og filmkveld. For deg som er ekstra eventyrlysten blir det også mulighet for å sove ute i telt en natt!",
+              "Uken vil bestå av flere spennende aktiviteter, alt fra fotballcup, bading, brettspill og tegning på dagen til kveldsaktiviteter som diskotek og filmkveld. ",
             acttext2:
               "Vi starter hver dag med felles frokost. Deretter legges det opp til en runde med aktiviteter før lunsj, og en etter. Vi satser på at de fleste av lekene og aktivitetene kan foregå utendørs.",
             acttext3:

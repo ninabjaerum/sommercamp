@@ -64,6 +64,11 @@ const Praktisk = () => {
                 {t("practical.transportTitle")}
               </Typography>
               <Typography>{t("practical.transportText")}</Typography>
+              <br />
+              <Typography>{t("practical.departure")}</Typography>
+              <Typography>{t("practical.arrival")}</Typography>
+              <br />
+              <Typography>{t("practical.other")}</Typography>
               <Typography
                 variant="h4"
                 style={{

@@ -69,11 +69,32 @@ const Pamelding = () => {
                 {" "}
                 {t("pamelding.fullybooked")}
               </Typography>{" "}
-              <br></br>
-              <Typography> {t("pamelding.text1")}</Typography> <br></br>
-              <Typography> {t("pamelding.text2")}</Typography>
-              <br></br>
+              <br />
+              <Typography> {t("pamelding.text1")}</Typography> <br />
+              <Typography> {t("practical.departure")}</Typography>
+              <Typography> {t("practical.arrival")}</Typography>
+              <Typography> {t("pamelding.meetLarvik")}</Typography>
+              <Typography
+                style={{
+                  fontWeight: "700",
+                }}
+              >
+                {" "}
+                {t("pamelding.responsible")}
+              </Typography>
+              <br />
+              <Typography> {t("pamelding.text2")}</Typography> <br />
               <Typography>
+                {t("pamelding.text3")}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILKQG4eaEWHtMpXc_VArk-PlUMDhDSlhPQjM0Mk9HOUVTUEtVRVdXQzlNUy4u "
+                  style={{ color: "#43bc94" }}
+                >
+                  {t("pamelding.reglink")}
+                </a>
+                {t("pamelding.text5")}
                 <div style={{ paddingBottom: "2vh" }}>
                   {t("pamelding.text4")}
                 </div>

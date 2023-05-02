@@ -75,15 +75,10 @@ const About = () => {
               <div style={{ padding: "2vh" }}>
                 <Typography>{t("about.aboutText3")}</Typography>{" "}
               </div>
+              <Divider></Divider>
             </Grid>
-            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
-              <div style={{ padding: "2vh" }}>
-                <Divider>
-                  <ThemeProvider theme={themedChip}>
-                    <Chip label={t("about.oksana")} backgroundColor="#43bc94" />
-                  </ThemeProvider>
-                </Divider>
-
+            <Grid item xs={12} sm={12} style={{ padding: "5% 20% 5% 20%" }}>
+              <div>
                 <Typography
                   variant="h6"
                   style={{
@@ -94,28 +89,53 @@ const About = () => {
                     textAlign: "center",
                   }}
                 >
-                  {t("about.oksaneTitle")}
+                  {t("about.instructorsTitle")}
                 </Typography>
-
+                <Typography
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "2vh",
+                    paddingBottom: "2vh",
+                  }}
+                >
+                  {t("about.instructorsText")}
+                </Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+              <div style={{ padding: "2vh" }}>
+                <Divider>
+                  <ThemeProvider theme={themedChip}>
+                    <Chip label={t("about.oksana")} backgroundColor="#43bc94" />
+                  </ThemeProvider>
+                </Divider>
                 <div
                   style={{
                     display: "flex",
                     justifyContent: "center",
+                    paddingTop: "1.5vh",
                   }}
                 >
                   <img alt="oksana" width="55%" src="Oksanaportrett.jpg"></img>
                 </div>
-                <Typography
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+              <div style={{ padding: "2vh" }}>
+                <Divider>
+                  <ThemeProvider theme={themedChip}>
+                    <Chip label={t("about.julia")} backgroundColor="#43bc94" />
+                  </ThemeProvider>
+                </Divider>
+                <div
                   style={{
-                    paddingTop: "1vh",
-                    textAlign: "center",
+                    display: "flex",
+                    justifyContent: "center",
+                    paddingTop: "1.5vh",
                   }}
                 >
-                  {t("about.oksanaMotto")}
-                </Typography>
-                <Typography style={{ paddingTop: "2vh" }}>
-                  {t("about.oksanaText")}
-                </Typography>
+                  <img alt="oksana" width="55%" src="placeholder.jpg"></img>
+                </div>
               </div>
             </Grid>
             <Grid item sm={6} xs={12}>
@@ -147,26 +167,6 @@ const About = () => {
                     </ModalContent>
                   )}
                 </div>
-              </div>
-              <div style={{ padding: "2vh" }}>
-                <Typography
-                  variant="h5"
-                  style={{
-                    color: "#43bc94",
-                    fontWeight: "500",
-                    paddingBottom: "1vh",
-                  }}
-                >
-                  {t("about.support")}
-                </Typography>
-                <Typography>
-                  <ul>
-                    <li> {t("about.partner2")}</li>
-                    <li> {t("about.partner3")}</li>
-                    <li> {t("about.partner4")}</li>
-                    <li> {t("about.partner1")}</li>
-                  </ul>
-                </Typography>
               </div>
             </Grid>
           </Grid>
