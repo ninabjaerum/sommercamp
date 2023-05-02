@@ -51,7 +51,7 @@ i18n
           pamelding: {
             title: "How do I sign up?",
             text1:
-              "Ukrainian children and youngsters aged 10-15 can apply to join Skye Summer Camp. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
+              "Ukrainian children and youngsters aged 9-13 can apply to join Skye Summer Camp. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
             text2: "Participation at Skye Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
             responsible:

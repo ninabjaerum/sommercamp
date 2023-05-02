@@ -63,7 +63,7 @@ const Pamelding = () => {
                 style={{
                   color: "#F26157",
                   fontWeight: "700",
-                  paddingBottom: "2vh",
+                  paddingBottom: "1.5vh",
                 }}
               >
                 {" "}
