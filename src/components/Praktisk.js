@@ -137,16 +137,14 @@ const Praktisk = () => {
                   paddingTop: "4vh",
                   maxWidth: "100%",
                   margin: "auto",
-                  flexDirection: "row",
-                  display: "flex",
                 }}
               >
                 <img
                   alt="cabin"
                   style={{
-                    padding: "1vh",
+                    padding: "3vh",
                   }}
-                  width="100%"
+                  width="90%"
                   src="polsegrilling.jpg"
                 ></img>
               </div>

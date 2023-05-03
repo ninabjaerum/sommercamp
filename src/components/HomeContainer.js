@@ -1,6 +1,6 @@
 import { Container, Grid, Typography, Divider, Chip } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-
+import YoutubeEmbed from "./YoutubeEmbed";
 import Summary from "./Summary";
 import Info from "./Info";
 import LongText from "./LongText";
@@ -50,6 +50,9 @@ const HomeContainer = () => {
           >
             {t("homepage.quote")}
           </Typography>
+          <div className="videoContainer">
+            <YoutubeEmbed embedId="-jvL-r-m0Ps"></YoutubeEmbed>
+          </div>
           <Divider></Divider>
         </Grid>
 

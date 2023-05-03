@@ -68,3 +68,24 @@
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
 }
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.videoContainer {
+  max-width: 50%;
+  padding-bottom: 4vh;
+  margin: auto;
+}

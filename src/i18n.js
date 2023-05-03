@@ -27,9 +27,9 @@ i18n
       en: {
         translation: {
           homepage: {
-            ansatt: "Anette Jacobsen - employee at EY Skye",
+            ansatt: "Video from Skye Summercamp 2022",
             quote:
-              "We look forward to participate in creating a positive experience for ukranian families through this camp, and hope we can provide some peace of mind for both young and adults this summer! ",
+              "Curious about what it's like to participate at Skye Summercamp? Have a look at this video from last years camp below ",
             welcomeTitle: "Welcome to summer camp!",
             welcomeText1:
               "In the summer of 2023 we will carry out a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
@@ -40,7 +40,7 @@ i18n
             accomodation: "Accommodation",
             accomodationText:
               "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. ",
-            accomodationLink: "here.",
+            accomodationLink: "Read more here.",
             meals: "Meals",
             mealsText:
               "Several meals will be served every day to suit everyone. We also want to include the children in the cooking activities if this is something they wish to do. There will be cooking both in the common kitchen and outdoors on the barbecue. Remember to notify us about allergies, intolerances, or other considerations in the registration form.",
@@ -172,9 +172,9 @@ i18n
       no: {
         translation: {
           homepage: {
-            ansatt: "Anette Jacobsen - ansatt i EY Skye",
+            ansatt: "Video fra Skye Sommercamp 2022",
             quote:
-              "Vi gleder oss til å arrangere en positiv opplevelse for ukrainske familier med denne campen, og håper på å kunne bidra med et lite pusterom for store og små i sommer!",
+              "Nyskjerrig på hvordan det er å være deltaker på camp? Se videoen fra fjorårets Sommercamp under",
             welcomeTitle: "Velkommen til sommercamp!",
             welcomeText1:
               "Sommeren 2023 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
@@ -185,7 +185,7 @@ i18n
             accomodation: "Overnatting",
             accomodationText:
               "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. ",
-            accomodationLink: "her.",
+            accomodationLink: "Les mer her.",
             meals: "Måltider",
             mealsText:
               "Det vil bli servert flere måltider hver dag som passer for alle. Vi ønsker også å inkludere barna i matlagingen hvis det er noe de har lyst til. Det blir matlaging både inne på felleskjøkkenet og utendørs på bål eller grill. Husk å gi beskjed om allergier, intoleranser eller andre hensyn i påmeldingsskjemaet.",
