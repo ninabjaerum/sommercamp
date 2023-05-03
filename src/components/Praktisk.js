@@ -45,10 +45,26 @@ const Praktisk = () => {
                 style={{
                   maxWidth: "100%",
                   margin: "auto",
-                  padding: "2vh",
+                  flexDirection: "row",
+                  display: "flex",
                 }}
               >
-                <img alt="grilling" width="80%" src="/campfire.jpg"></img>
+                <img
+                  alt="cabin"
+                  style={{
+                    padding: "1vh",
+                  }}
+                  width="40%"
+                  src="Hytta.jpg"
+                ></img>
+                <img
+                  alt="friends"
+                  style={{
+                    padding: "1vh",
+                  }}
+                  width="40%"
+                  src="Barn.jpg"
+                ></img>
               </div>
             </Grid>
             <Grid item xs={12} sm={6} style={{ padding: "1vh" }}>
@@ -116,6 +132,24 @@ const Praktisk = () => {
               <Typography>{t("practical.pakktext4")}</Typography>
               <br></br>
               <Typography>{t("practical.pakktext5")}</Typography>
+              <div
+                style={{
+                  paddingTop: "4vh",
+                  maxWidth: "100%",
+                  margin: "auto",
+                  flexDirection: "row",
+                  display: "flex",
+                }}
+              >
+                <img
+                  alt="cabin"
+                  style={{
+                    padding: "1vh",
+                  }}
+                  width="100%"
+                  src="polsegrilling.jpg"
+                ></img>
+              </div>
             </Grid>
           </Grid>
         </Container>

@@ -45,7 +45,7 @@ const Pamelding = () => {
             <Grid
               item
               xs={12}
-              sm={7}
+              sm={6}
               style={{ paddingTop: "5vh", paddingRight: "2vh" }}
             >
               <Typography
@@ -118,20 +118,16 @@ const Pamelding = () => {
             <Grid
               item
               xs={12}
-              sm={4}
+              sm={5}
               style={{
                 paddingTop: "5vh",
               }}
             >
               <div style={{ padding: "1vh" }}>
-                <img alt="barn leker" width="100%" src="/taulek.jpg"></img>
+                <img alt="barn leker" width="100%" src="Ankomst.jpg"></img>
               </div>
               <div style={{ padding: "1vh" }}>
-                <img
-                  alt="barn leker"
-                  width="100%"
-                  src="https://images.unsplash.com/photo-1464808322410-1a934aab61e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                ></img>
+                <img alt="barn leker" width="100%" src="Leksol.jpg"></img>
               </div>
             </Grid>
             <Grid
@@ -140,6 +136,7 @@ const Pamelding = () => {
               sm={11}
               style={{
                 paddingTop: "4vh",
+                paddingBottom: "2vh",
               }}
             >
               <div>
@@ -161,6 +158,27 @@ const Pamelding = () => {
                     <li>{t("pamelding.bullet8")}</li>
                   </ul>
                 </Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={4}>
+              <div style={{ maxWidth: "100%", margin: "auto", padding: "1vh" }}>
+                <img alt="barn leker" width="100%" src="tautrekk2.jpg"></img>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
+              <div
+                style={{
+                  maxWidth: "100%",
+                  margin: "auto",
+                  padding: "1vh",
+                }}
+              >
+                <img alt="barn leker" width="100%" src="Huske.jpg"></img>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
+              <div style={{ maxWidth: "100%", margin: "auto", padding: "1vh" }}>
+                <img alt="barn leker" width="100%" src="Vollyball1.jpg"></img>
               </div>
             </Grid>
           </Grid>

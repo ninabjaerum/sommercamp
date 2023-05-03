@@ -33,12 +33,8 @@ const HomeContainer = () => {
           <Summary />
         </Grid>
         <Grid item sm={12} md={6} className="row-1">
-          <div style={{ maxWidth: "90%", margin: "auto" }}>
-            <img
-              alt="barn leker"
-              width="100%"
-              src="https://images.unsplash.com/photo-1611153661566-9cb802ffe968?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2544&q=80"
-            ></img>
+          <div style={{ maxWidth: "70%", margin: "auto" }}>
+            <img alt="barn leker" width="100%" src="maltid.jpg"></img>
           </div>
         </Grid>
 
@@ -58,12 +54,8 @@ const HomeContainer = () => {
         </Grid>
 
         <Grid item sm={12} md={6} className="row-3">
-          <div style={{ maxWidth: "90%", margin: "auto" }}>
-            <img
-              alt="barn leker"
-              width="100%"
-              src="https://images.unsplash.com/photo-1555791019-72d3af01da82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80"
-            ></img>
+          <div style={{ maxWidth: "100%", margin: "auto" }}>
+            <img alt="barn leker" width="100%" src="Hytta1.jpg"></img>
           </div>
         </Grid>
         <Grid item md={6} sm={12} className="row-3">
@@ -71,6 +63,28 @@ const HomeContainer = () => {
         </Grid>
         <Grid item xs={12} className="row-4">
           <LongText></LongText>
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
+          <div style={{ maxWidth: "100%", margin: "auto", padding: "1vh" }}>
+            <img alt="barn leker" width="90%" src="bat.jpg"></img>
+          </div>
+        </Grid>
+        <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
+          <div
+            style={{
+              maxWidth: "90%",
+              margin: "auto",
+              padding: "1vh",
+            }}
+          >
+            <img alt="barn leker" width="100%" src="sunset.jpg"></img>
+          </div>
+        </Grid>
+        <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
+          <div style={{ maxWidth: "90%", margin: "auto", padding: "1vh" }}>
+            <img alt="barn leker" width="100%" src="Krabbefisking1.jpg"></img>
+          </div>
         </Grid>
       </Grid>
     </Container>

@@ -36,10 +36,12 @@ const Summary = () => {
             {" "}
             {t("homepage.welcomeText1")}
           </Typography>
+          <br />
           <Typography lineHeight="2" style={{ paddingBottom: "1%" }}>
             {" "}
             {t("homepage.welcomeText2")}
-          </Typography>
+          </Typography>{" "}
+          <br />
           <Typography lineHeight="2" style={{ paddingBottom: "2%" }}>
             {" "}
             {t("homepage.welcomeText3")}

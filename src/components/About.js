@@ -116,7 +116,7 @@ const About = () => {
                     paddingTop: "1.5vh",
                   }}
                 >
-                  <img alt="oksana" width="55%" src="Oksanaportrett.jpg"></img>
+                  <img alt="oksana" width="55%" src="Oksana.jpg"></img>
                 </div>
               </div>
             </Grid>
