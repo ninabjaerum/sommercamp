@@ -75,7 +75,12 @@ const About = () => {
               <div style={{ padding: "2vh" }}>
                 <Typography>{t("about.aboutText3")}</Typography>{" "}
               </div>
-              <Divider></Divider>
+              <Divider>
+                {" "}
+                <ThemeProvider theme={themedChip}>
+                  <Chip label={t("about.julia")} backgroundColor="#43bc94" />
+                </ThemeProvider>
+              </Divider>
             </Grid>
             <Grid item xs={12} sm={12} style={{ padding: "5% 20% 5% 20%" }}>
               <div>
@@ -104,11 +109,6 @@ const About = () => {
             </Grid>
             <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
               <div style={{ padding: "2vh" }}>
-                <Divider>
-                  <ThemeProvider theme={themedChip}>
-                    <Chip label={t("about.oksana")} backgroundColor="#43bc94" />
-                  </ThemeProvider>
-                </Divider>
                 <div
                   style={{
                     display: "flex",
@@ -116,17 +116,12 @@ const About = () => {
                     paddingTop: "1.5vh",
                   }}
                 >
-                  <img alt="oksana" width="55%" src="Oksana.jpg"></img>
+                  <img alt="oksana" width="100%" src="Juliaflagg.jpg"></img>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
               <div style={{ padding: "2vh" }}>
-                <Divider>
-                  <ThemeProvider theme={themedChip}>
-                    <Chip label={t("about.julia")} backgroundColor="#43bc94" />
-                  </ThemeProvider>
-                </Divider>
                 <div
                   style={{
                     display: "flex",
@@ -134,7 +129,7 @@ const About = () => {
                     paddingTop: "1.5vh",
                   }}
                 >
-                  <img alt="oksana" width="55%" src="placeholder.jpg"></img>
+                  <img alt="oksana" width="56%" src="Juliacamp.jpg"></img>
                 </div>
               </div>
             </Grid>

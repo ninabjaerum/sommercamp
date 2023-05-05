@@ -131,11 +131,10 @@ i18n
               "Skye summer camp is recognized by the Ukrainian Embassy in Norway ",
             embassyText:
               "Approval letter from Ukranian Embassy in Norway. Click on the image to view.",
-            oksana: "Oksana Huk",
             instructorsTitle:
-              "There will be one main responsible instructor each week on camp, speaking both Norwegian, English and Ukrainian. This year the lead instructor role will be shared between Oksana Huk and Julia Faviritova",
+              " Julia Faviritova will be participating as an instructor during all 4 weeks of camp. She speaks both Norwegian, English and Ukrainian. ",
             instructorsText:
-              "Oksana Huk has more than 25 years experience working in schools, teaching both children and teens. Julia Favoritova works among other things, with traditional Ukranian arts and crafts. She is also experienced in working with children. They both participated in Skye Summer Camp in 2022. ",
+              "Julia was also an instructor/assistant for one week of Skye Summercamp in 2022. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for a little longer than one year. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
             julia: "Julia Favoritova",
             support: "Skye Summer Camp is organized with the support of ",
             partner1: "Fremtind",
@@ -164,8 +163,8 @@ i18n
           footer: {
             footerTitle: "Contact information",
             footertext1:
-              "E-mail: Anette.Jacobsen@skye.ey.com / Inger.Saxebol@skye.ey.com",
-            footertext2: "Phone: +47 45062921 /+47 481 55 226",
+              "E-mail: karoline.k.wraali@skye.ey.com / Inger.Saxebol@skye.ey.com",
+            footertext2: "Phone: +47 99356917 /+47 481 55 226",
           },
         },
       },
@@ -272,11 +271,10 @@ i18n
               "Skye sommercamp er anerkjent av den Ukrainske Ambassaden i Norge. ",
             embassyText:
               "Bekreftelse fra den Ukrainske Ambassade. Klikk på bildet for å forstørre",
-            oksana: "Oksana Huk",
             instructorsTitle:
-              "Det vil være en hovedansvarlig på camp som snakker både norsk, engelsk og ukrainsk. I år deles denne oppgaven mellom Oksana Huk og  Julia Favoritova. ",
+              "Julia Favoritova vil være med som instruktør på camp alle 4 ukene. Hun snakker både norsk, engelsk og ukrainsk. ",
             instructorsText:
-              "Oksana Huk har mer enn 25 års erfaring med undervisning i skolen for barn og unge. Julia Favoritova jobber blant annet med tradisjonelt ukrainsk håndverk og har lang erfaring med å jobbe med barn og unge. Begge deltok på Skye Sommercamp 2022. ",
+              "Julia var også med som instruktør/assistent i en uke på Skye Sommercamp i 2022. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge litt over et år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
             julia: "Julia Favoritova",
             support: "Skye Sommercamp arrangeres med støtte fra ",
             partner1: "1",
@@ -305,8 +303,8 @@ i18n
           footer: {
             footerTitle: "Kontaktinformasjon",
             footertext1:
-              "E-post: Anette.Jacobsen@skye.ey.com / Inger.Saxebol@skye.ey.com",
-            footertext2: "Telefon: +47 45062921 /+47 481 55 226",
+              "E-post: karoline.k.wraali@skye.ey.com/ Inger.Saxebol@skye.ey.com",
+            footertext2: "Telefon: +47 99356917 /+47 481 55 226",
           },
         },
       },
