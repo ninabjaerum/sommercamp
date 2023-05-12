@@ -51,7 +51,7 @@ i18n
           pamelding: {
             title: "How do I sign up?",
             text1:
-              "Ukrainian children and youngsters aged 9-13 can apply to join Skye Summer Camp. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
+              "Are you between 9 and 13 years old, born in 2013, 2012, 2011 or 2010?. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
             text2: "Participation at Skye Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
             responsible:
@@ -83,7 +83,7 @@ i18n
             bullet8:
               "Skye Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The registation form will be available at a later time ",
+              "The registation form will be uploaded on monday May 15th at approximately 12:00 ",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -195,7 +195,7 @@ i18n
           pamelding: {
             title: "Hvordan melder jeg meg på?",
             text1:
-              "Ukrainske barn og unge i alderen 10-13 år kan søke om å få være med på Skye sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.  ",
+              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Da kan du melde deg på sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.  ",
             text2: "Deltagelse på Skye sommercamp er gratis. ",
             text3: "For påmelding kan du bruke skjemaet ",
             responsible:
@@ -226,7 +226,8 @@ i18n
               "Skye Sommercamp instruktørene er til stede for å være medmennesker og gode voksne, og de er ikke fagpersoner. De vil ha tilgang til veiledning fra psykolog ved behov",
             bullet8:
               "Skye sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
-            fullybooked: "PÅMELDINGSLENKE KOMMER SENERE",
+            fullybooked:
+              "Påmeldingslenke publiseres mandag 15. mai ca. klokken 12:00",
           },
           practical: {
             accomodationTitle: "Overnatting",
