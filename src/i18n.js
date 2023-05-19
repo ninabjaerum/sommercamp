@@ -83,7 +83,7 @@ i18n
             bullet8:
               "Skye Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "Even if you are able to register a participant in this form, you are not guaranteed a spot. Participants who get a spot at the camp will receive an email with confirmation within approximately one week.",
+              "The camp is now full and the registration form is closed.",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -227,7 +227,7 @@ i18n
             bullet8:
               "Skye sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
             fullybooked:
-              "Selv om du har sendt inn skjema er du ikke garantert en plass på camp. Deltakerne som får plass vil få en e-post med bekreftelse innen ca. 1 uke.",
+              "Sommercampen er nå fulltegnet og påmeldingen er stengt",
           },
           practical: {
             accomodationTitle: "Overnatting",

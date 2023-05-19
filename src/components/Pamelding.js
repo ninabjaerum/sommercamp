@@ -59,6 +59,7 @@ const Pamelding = () => {
                 {t("pamelding.title")}
               </Typography>
               <Typography
+                variant="h6"
                 style={{
                   color: "#F26157",
                   fontWeight: "700",
@@ -82,34 +83,16 @@ const Pamelding = () => {
                 {t("pamelding.responsible")}
               </Typography>
               <br />
-              <Typography> {t("pamelding.text2")}</Typography> <br />
               <Typography>
-                {t("pamelding.text3")}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://forms.office.com/e/FwS6N8gRpJ"
-                  style={{ color: "#43bc94" }}
-                >
-                  {t("pamelding.reglink")}
-                </a>
-                {t("pamelding.text5")}
                 <div style={{ paddingBottom: "2vh" }}>
                   {t("pamelding.text4")}
                 </div>
               </Typography>
               <div style={{ paddingTop: "2vh" }}>
                 <ThemeProvider theme={themeButton}>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://forms.office.com/e/FwS6N8gRpJ"
-                    style={{ color: "#43bc94" }}
-                  >
-                    <Button variant="contained">
-                      {t("pamelding.button")}{" "}
-                    </Button>
-                  </a>
+                  <Button variant="contained" disabled={true}>
+                    {t("pamelding.button")}{" "}
+                  </Button>
                 </ThemeProvider>
               </div>
               <div>
