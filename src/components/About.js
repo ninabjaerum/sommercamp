@@ -116,7 +116,7 @@ const About = () => {
                     paddingTop: "1.5vh",
                   }}
                 >
-                  <img alt="oksana" width="100%" src="Juliaflagg.jpg"></img>
+                  <img alt="Julia" width="100%" src="Juliaflagg.jpg"></img>
                 </div>
               </div>
             </Grid>
@@ -129,7 +129,7 @@ const About = () => {
                     paddingTop: "1.5vh",
                   }}
                 >
-                  <img alt="oksana" width="56%" src="Juliacamp.jpg"></img>
+                  <img alt="juliaAtCamp" width="56%" src="Juliacamp.jpg"></img>
                 </div>
               </div>
             </Grid>
@@ -158,7 +158,7 @@ const About = () => {
                   </Modal>
                   {isOpen && (
                     <ModalContent onClose={() => setIsopen(false)}>
-                      <img src="approval.jpg" alt="approval letter" />
+                      <img src="LetterEmbassy.jpg" alt="approval letter" />
                     </ModalContent>
                   )}
                 </div>

@@ -34,7 +34,7 @@ const HomeContainer = () => {
         </Grid>
         <Grid item sm={12} md={6} className="row-1">
           <div style={{ maxWidth: "70%", margin: "auto" }}>
-            <img alt="barn leker" width="100%" src="maltid.jpg"></img>
+            <img alt="lunch at camp 2022" width="100%" src="maltid.jpg"></img>
           </div>
         </Grid>
 
@@ -58,7 +58,7 @@ const HomeContainer = () => {
 
         <Grid item sm={12} md={6} className="row-3">
           <div style={{ maxWidth: "100%", margin: "auto" }}>
-            <img alt="barn leker" width="100%" src="Hytta1.jpg"></img>
+            <img alt="Jakthytta" width="100%" src="Hytta1.jpg"></img>
           </div>
         </Grid>
         <Grid item md={6} sm={12} className="row-3">
@@ -70,7 +70,7 @@ const HomeContainer = () => {
 
         <Grid item xs={12} sm={4}>
           <div style={{ maxWidth: "100%", margin: "auto", padding: "1vh" }}>
-            <img alt="barn leker" width="90%" src="bat.jpg"></img>
+            <img alt="Boat ride 2022" width="90%" src="bat.jpg"></img>
           </div>
         </Grid>
         <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
@@ -81,12 +81,16 @@ const HomeContainer = () => {
               padding: "1vh",
             }}
           >
-            <img alt="barn leker" width="100%" src="sunset.jpg"></img>
+            <img alt="Playing outside 2022" width="100%" src="sunset.jpg"></img>
           </div>
         </Grid>
         <Grid item xs={12} sm={4} style={{ margin: "auto" }}>
           <div style={{ maxWidth: "90%", margin: "auto", padding: "1vh" }}>
-            <img alt="barn leker" width="100%" src="Krabbefisking1.jpg"></img>
+            <img
+              alt="By the water 2022"
+              width="100%"
+              src="Krabbefisking1.jpg"
+            ></img>
           </div>
         </Grid>
       </Grid>
