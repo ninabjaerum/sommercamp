@@ -36,7 +36,7 @@ const Header = () => {
           <Grid item xs={1} md={3}></Grid>
           <Grid item xs={10} md={6}>
             <div className="logo-cont-header">
-              <img src="/mainlogoblack.png" alt="logo" width="90%" />
+              <img src="/mainlogoblacknew.png" alt="logo" width="100%"  />
             </div>
           </Grid>
           <Grid item xs={1} md={3}></Grid>

@@ -27,16 +27,16 @@ i18n
       en: {
         translation: {
           homepage: {
-            ansatt: "Video from Skye Summercamp 2022",
+            ansatt: "Video from Summercamp 2022",
             quote:
-              "Curious about what it's like to participate at Skye Summercamp? Have a look at this video from last years camp below ",
+              "Curious about what it's like to participate at EY Summercamp? Have a look at this video from last years camp below ",
             welcomeTitle: "Welcome to summer camp!",
             welcomeText1:
-              "In the summer of 2023 we will carry out a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
+              "In the summer of 2024 we will arrange a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
             welcomeText2:
               "Are you between the ages of 9 and 13, born in 2013, 2012, 2011 or 2010?? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
             welcomeText3:
-              "The camp is free and is carried out 4 times at Jakthytta on Malmøya outside Stavern. Each camp week lasts from Monday to Friday, with 20-25 children and youngsters along with instructors from both Ukraine and Norway. We hope that the summer camp can provide a place to relax and create good memories for the participants.",
+              "The camp is free and is carried out 3 times at Jakthytta on Malmøya outside Stavern. Each camp week lasts from Monday to Friday, with 20-25 children and youngsters along with instructors from both Ukraine and Norway. We hope that the summer camp can provide a place to relax and create good memories for the participants.",
             accomodation: "Accommodation",
             accomodationText:
               "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. ",
@@ -51,8 +51,8 @@ i18n
           pamelding: {
             title: "How do I sign up?",
             text1:
-              "Are you between 9 and 13 years old, born in 2013, 2012, 2011 or 2010?. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 4 weeks (weeks 25, 26, 27 and 28) with 10-12 instructors each week.",
-            text2: "Participation at Skye Summer Camp is free of charge.  ",
+              "Are you between 9 and 13 years old, born in 2013, 2012, 2011 or 2010?. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 3 weeks (weeks 25, 26 and 27) with 10-12 instructors each week.",
+            text2: "Participation at EY Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
             responsible:
               "It is the participant's responsibility to be able to meet on time at the agreed meeting point. ",
@@ -64,7 +64,7 @@ i18n
             text4:
               "We follow the Privacy Act and do not store information for which permission has not been granted.  ",
             bullet1:
-              "Skye Summer Camp covers food, transport from Oslo, and accommodation. Allergy and food preferences will be taken care of to best of our ability",
+              "EY Summer Camp covers food, transport from Oslo, and accommodation. Allergy and food preferences will be taken care of to best of our ability",
             bullet2: "Exciting holiday activities are arranged every day",
             button: "Register here",
             expYou:
@@ -79,11 +79,11 @@ i18n
             bullet6:
               "We want to focus on the participants getting to know each other and us well, so that everyone feels safe. We facilitate some activities to make it easier",
             bullet7:
-              "Skye Summer Camp instructors are present to be fellow human beings and good adults, and they are not professionals. They will have access to guidance from a psychologist if needed",
+              "EY Summer Camp instructors are present to be fellow human beings and good adults, and they are not professionals. They will have access to guidance from a psychologist if needed",
             bullet8:
-              "Skye Summer Camp instructors are available to children throughout their stay, both day and night",
+              "EY Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The camp is now full and the registration form is closed.",
+              "The camp registration form has not been opened yet.",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -122,25 +122,20 @@ i18n
           about: {
             aboutTitle: "About Us",
             aboutText1:
-              "We at EY Skye want to contribute with something more than the consulting services in technology we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY Skye, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
+              "We at EY want to contribute with something more than the consulting services in technology we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY Skye, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
             aboutText2:
               "For many of us, memories of summer holidays are something we will never forget. Lazy days on the beach, crab fishing and boat trips. Evening swims in the rain and laughs that create comfort and warmth throughout the rest of the week. A sense of belonging, unity and security that we bring with us further in life. We all come from different environments, families and places, and have a lot to learn from each other. Through Skye Summer Camp, we want to give children and youngsters who have had to flee their home country a place to relax, the opportunity to play and participate in activities together with others in a similar situation.",
             aboutText3:
-              "All Skye Summer Camp instructors undergo a training program, focusing on safety and first aid. Translators and instructors with Ukrainian background will join the camp. We want each participant to have good experiences, experience safety, community and good relations with other children and us adults. ",
+              "All EY Summercamp instructors undergo a training program, focusing on safety and first aid. Translators and instructors with Ukrainian background will join the camp. We want each participant to have good experiences, experience safety, community and good relations with other children and us adults. ",
             embassy:
-              "Skye summer camp is recognized by the Ukrainian Embassy in Norway ",
+              "EY Summercamp is recognized by the Ukrainian Embassy in Norway ",
             embassyText:
               "Approval letter from Ukranian Embassy in Norway. Click on the image to view.",
             instructorsTitle:
-              " Julia Faviritova will be participating as an instructor during all 4 weeks of camp. She speaks both Norwegian, English and Ukrainian. ",
+              " Julia Faviritova will be participating as an instructor during all 3 weeks of camp. She speaks both Norwegian, English and Ukrainian. ",
             instructorsText:
-              "Julia was also an instructor/assistant for one week of Skye Summercamp in 2022. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for a little longer than one year. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
-            julia: "Julia Favoritova",
-            support: "Skye Summer Camp is organized with the support of ",
-            partner1: "Fremtind",
-            partner2: "Storebrandstifdtelsen",
-            partner3: "Coop",
-            partner4: "Matbørsen",
+              "Julia was also an instructor/assistant at EY Summercamp in 2022 & 2023. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for a little longer than one year. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
+            julia: "Julia Favoritova"
           },
           captions: {
             activitiesTitle: "Activities",
@@ -150,7 +145,7 @@ i18n
             practical: "Practical",
           },
           activities: {
-            activityTitle: "How will the days at Skye Summer Camp look?",
+            activityTitle: "How will the days at EY Summercamp look?",
             acttext1:
               "Throughout the week it will be possible to participate in various activities. Ranging from football cup, swimming, boardgames and drawing during daytime and evening activities like disco and movie nights. For those who might feel extra adventurous, there will even be opportunities to camp outside.",
             acttext2:
@@ -163,24 +158,24 @@ i18n
           footer: {
             footerTitle: "Contact information",
             footertext1:
-              "E-mail: karoline.k.wraali@skye.ey.com / Inger.Saxebol@skye.ey.com",
-            footertext2: "Phone: +47 99356917 /+47 481 55 226",
+              "E-mail: marcus.marmont.ramsey@no.ey.com",
+            footertext2: "Phone: +47 903 61 149",
           },
         },
       },
       no: {
         translation: {
           homepage: {
-            ansatt: "Video fra Skye Sommercamp 2022",
+            ansatt: "Video fra EY Sommercamp 2022",
             quote:
               "Nyskjerrig på hvordan det er å være deltaker på camp? Se videoen fra fjorårets Sommercamp under",
             welcomeTitle: "Velkommen til sommercamp!",
             welcomeText1:
-              "Sommeren 2023 vil vi gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
+              "Sommeren 2024 vil vi igjen gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
             welcomeText2:
               "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
             welcomeText3:
-              "Campen er gratis og gjennomføres 4 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
+              "Campen er gratis og gjennomføres 3 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
             accomodation: "Overnatting",
             accomodationText:
               "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. ",
@@ -195,8 +190,8 @@ i18n
           pamelding: {
             title: "Hvordan melder jeg meg på?",
             text1:
-              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Da kan du melde deg på sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 4 uker (uke 25, 26, 27 og 28) med 10-12 ledere hver uke.  ",
-            text2: "Deltagelse på Skye sommercamp er gratis. ",
+              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Da kan du melde deg på sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 3 uker (uke 25, 26 og 27) med 10-12 ledere hver uke.  ",
+            text2: "Deltagelse på EY sommercamp er gratis. ",
             text3: "For påmelding kan du bruke skjemaet ",
             responsible:
               "Deltaker er selv ansvarlig for å komme seg til oppmøtested til avtalt tid. ",
@@ -208,11 +203,11 @@ i18n
               "Vi følger personvernloven, og lagrer ikke informasjon som det ikke er gitt tillatelse til.",
 
             bullet1:
-              "Skye sommercamp dekker kost og losji (helpensjon). Det tas hensyn til allergier og de matpreferanser vi klarer å imøtekomme",
+              "EY sommercamp dekker kost og losji (helpensjon). Det tas hensyn til allergier og de matpreferanser vi klarer å imøtekomme",
             bullet2: "Det blir arrangert spennende ferieaktiviteter hver dag",
             button: "Gå til påmeldingsskjema",
             expYou:
-              "Forventninger til deg som melder på barn/unge til Skye sommercamp",
+              "Forventninger til deg som melder på barn/unge til EY sommercamp",
             bullet3:
               "Sikre at barnet som meldes på har mulighet til å delta på ferieoppholdet",
             bullet4:
@@ -223,11 +218,11 @@ i18n
             bullet6:
               "Vi vil ha fokus på at deltagerne blir godt kjent med hverandre og med oss, så alle blir trygge. Vi hjelper til med noen aktiviteter slik at det blir lettere",
             bullet7:
-              "Skye Sommercamp instruktørene er til stede for å være medmennesker og gode voksne, og de er ikke fagpersoner. De vil ha tilgang til veiledning fra psykolog ved behov",
+              "EY Sommercamp instruktørene er til stede for å være medmennesker og gode voksne, og de er ikke fagpersoner. De vil ha tilgang til veiledning fra psykolog ved behov",
             bullet8:
-              "Skye sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
+              "EY sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
             fullybooked:
-              "Sommercampen er nå fulltegnet og påmeldingen er stengt",
+              "Påmelding til Sommercampen har ikke åpnet enda",
           },
           practical: {
             accomodationTitle: "Overnatting",
@@ -263,25 +258,20 @@ i18n
           about: {
             aboutTitle: "Om Oss",
             aboutText1:
-              "Vi som jobber i EY Skye har lyst til å bidra med noe mer enn de konsulent-tjenestene innen teknologi vi leverer som selskap. Etter at krigen brøt ut i Ukraina har vi et sterkt ønske om å bidra. Derfor er det vi ansatte som driver Skye sommercamp sammen. Vi gjør det som frivillige, og gir av vår tid. Samtidig er vi overbevist om at det vil være like bra for oss som for barna som blir med på campen. Vi gleder oss til leirbål, gode samtaler, måltider sammen som vi selv har laget og fnising i soveposen før natten kommer.",
+              "Vi som jobber i EY har lyst til å bidra med noe mer enn de konsulent-tjenestene innen teknologi vi leverer som selskap. Etter at krigen brøt ut i Ukraina har vi et sterkt ønske om å bidra. Derfor er det vi ansatte som driver Skye sommercamp sammen. Vi gjør det som frivillige, og gir av vår tid. Samtidig er vi overbevist om at det vil være like bra for oss som for barna som blir med på campen. Vi gleder oss til leirbål, gode samtaler, måltider sammen som vi selv har laget og fnising i soveposen før natten kommer.",
             aboutText2:
               "For mange av oss er minner fra sommerferier noe vi aldri vil glemme. Late dager på stranden, krabbefiske og båtturer. Kveldsbad i regnet og latterkramper som skaper varme og nærhet for resten av uka. En følelse av tilhørighet, samhold og trygghet som vi har med oss videre i livet. Vi kommer alle fra ulike miljøer, familier og steder, og har mye å lære av hverandre. Gjennom Skye sommercamp ønsker vi å gi barn og unge som har måttet flykte fra landet sitt og fra tryggheten, et pusterom, mulighet til å leke og delta i aktiviteter sammen med andre i en lignenede situasjon.",
             aboutText3:
-              "Alle lederne i Skye sommercamp gjennomgår et opplæringsprogram, med fokus på sikkerhet og førstehjelp. Det vil være med tolk og ledere med Ukrainsk bakgrunn. Vi ønsker at hver enkelt deltager skal få gode opplevelser, oppleve trygghet, felleskap og gode relasjoner til andre barn og oss voksne.",
+              "Alle lederne i EY sommercamp gjennomgår et opplæringsprogram, med fokus på sikkerhet og førstehjelp. Det vil være med tolk og ledere med Ukrainsk bakgrunn. Vi ønsker at hver enkelt deltager skal få gode opplevelser, oppleve trygghet, felleskap og gode relasjoner til andre barn og oss voksne.",
             embassy:
-              "Skye sommercamp er anerkjent av den Ukrainske Ambassaden i Norge. ",
+              "EY sommercamp er anerkjent av den Ukrainske Ambassaden i Norge. ",
             embassyText:
               "Bekreftelse fra den Ukrainske Ambassade. Klikk på bildet for å forstørre",
             instructorsTitle:
-              "Julia Favoritova vil være med som instruktør på camp alle 4 ukene. Hun snakker både norsk, engelsk og ukrainsk. ",
+              "Julia Favoritova vil være med som instruktør på camp alle 3 ukene. Hun snakker både norsk, engelsk og ukrainsk. ",
             instructorsText:
-              "Julia var også med som instruktør/assistent i en uke på Skye Sommercamp i 2022. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge litt over et år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
-            julia: "Julia Favoritova",
-            support: "Skye Sommercamp arrangeres med støtte fra ",
-            partner1: "1",
-            partner2: "2",
-            partner3: "3",
-            partner4: "4",
+              "Julia var også med som instruktør/assistent på EY Sommercamp i 2022 og 2023. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge litt over et år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
+            julia: "Julia Favoritova"
           },
           captions: {
             activitiesTitle: "Aktiviteter",
@@ -291,7 +281,7 @@ i18n
             practical: "Praktisk",
           },
           activities: {
-            activityTitle: "Hvordan vil dagene på Skye Sommercamp se ut?",
+            activityTitle: "Hvordan vil dagene på EY Sommercamp se ut?",
             acttext1:
               "Uken vil bestå av flere spennende aktiviteter, alt fra fotballcup, bading, brettspill og tegning på dagen til kveldsaktiviteter som diskotek og filmkveld. ",
             acttext2:
@@ -304,8 +294,8 @@ i18n
           footer: {
             footerTitle: "Kontaktinformasjon",
             footertext1:
-              "E-post: karoline.k.wraali@skye.ey.com/ Inger.Saxebol@skye.ey.com",
-            footertext2: "Telefon: +47 99356917 /+47 481 55 226",
+              "E-post: marcus.marmont.ramsey@no.ey.com",
+            footertext2: "Telefon: +47 903 61 149 ",
           },
         },
       },

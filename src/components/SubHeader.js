@@ -42,7 +42,7 @@ const SubHeader = (props) => {
             <Grid item xs={3}>
               <div className="subheader-logo">
                 <NavLink to="/">
-                  <img src="/mainlogoblack.png" alt="logo" width="60%" />
+                  <img src="/mainlogoblacknew.png" alt="logo" width="70%" />
                 </NavLink>
               </div>
             </Grid>

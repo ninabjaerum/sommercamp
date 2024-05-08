@@ -92,6 +92,12 @@ const Pamelding = () => {
                 <ThemeProvider theme={themeButton}>
                   <Button variant="contained" disabled={true}>
                     {t("pamelding.button")}{" "}
+                    {/*  <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="formsLink"
+                  style={{ color: "#43bc94" }}
+                > */}
                   </Button>
                 </ThemeProvider>
               </div>

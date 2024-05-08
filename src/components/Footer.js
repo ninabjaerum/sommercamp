@@ -9,7 +9,8 @@ const Footer = () => {
       <Grid container>
         <Grid
           item
-          xs={8}
+          xs={12}
+          sm={8}
           style={{
             justifyContent: "center",
             alignItems: " center",
@@ -24,13 +25,13 @@ const Footer = () => {
         </Grid>
         <Grid
           item
-          xs={8}
+          xs={12}
           sm={4}
           style={{
             justifyContent: "center",
           }}
         >
-          <img src="/mainlogoblack.png" alt="logo" width="40%" />
+          <img src="/mainlogoblacknew.png" alt="logo" width="50%" />
         </Grid>
       </Grid>
     </div>
