@@ -66,7 +66,7 @@ const Aktiviteter = () => {
             </Grid>
             <Grid item xs={6} sm={4} style={{ margin: "auto" }}>
               <div style={{ maxWidth: "100%", margin: "auto", padding: "1vh" }}>
-                <img alt="barn leker" width="100%" src="pusling.jpg"></img>
+                <img alt="barn leker" width="100%" src="Pusling.jpg"></img>
               </div>
             </Grid>
             <Grid item xs={6} sm={6}>

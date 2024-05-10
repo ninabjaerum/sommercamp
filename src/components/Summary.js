@@ -46,6 +46,9 @@ const Summary = () => {
             {" "}
             {t("homepage.welcomeText3")}
           </Typography>
+          <Typography>{t("homepage.welcomeTextWeeks25")}</Typography>
+          <Typography>{t("homepage.welcomeTextWeeks26")}</Typography>
+          <Typography>{t("homepage.welcomeTextWeeks27")}</Typography>
         </ThemeProvider>
       </div>
     </div>

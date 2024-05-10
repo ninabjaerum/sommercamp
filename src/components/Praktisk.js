@@ -81,8 +81,13 @@ const Praktisk = () => {
               </Typography>
               <Typography>{t("practical.transportText")}</Typography>
               <br />
+              <Typography style={{fontWeight: "bold"}}>{t("practical.departureWeek1")}</Typography>
               <Typography>{t("practical.departure")}</Typography>
               <Typography>{t("practical.arrival")}</Typography>
+              <br />
+              <Typography style={{fontWeight: "bold"}}>{t("practical.departureWeek2")}</Typography>
+              <Typography>{t("practical.departure2")}</Typography>
+              <Typography>{t("practical.arrival2")}</Typography>
               <br />
               <Typography>{t("practical.other")}</Typography>
               <Typography

@@ -34,10 +34,16 @@ i18n
             welcomeText1:
               "In the summer of 2024 we will arrange a 5 day summer holiday, from Monday to Friday, for children and youngsters from Ukraine who are new to Norway.",
             welcomeText2:
-              "Are you between the ages of 9 and 13, born in 2013, 2012, 2011 or 2010?? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
+              "Are you between the ages of 9 and 13, born between in 2011 and 2015? Would you like to participate in various activities, such as football, fishing, cooking, drawing, swimming and much more – and maybe make some new friends? ",
             welcomeText3:
-              "The camp is free and is carried out 3 times at Jakthytta on Malmøya outside Stavern. Each camp week lasts from Monday to Friday, with 20-25 children and youngsters along with instructors from both Ukraine and Norway. We hope that the summer camp can provide a place to relax and create good memories for the participants.",
-            accomodation: "Accommodation",
+              "The camp is free and is carried out 3 times at Jakthytta on Malmøya outside Stavern. Each camp will have 20-30 children and youngsters along with instructors from both Ukraine and Norway. The camp will take place in:",
+            welcomeTextWeeks25: 
+            "Week 25: Monday til Friday ",
+            welcomeTextWeeks26: 
+            "Week 26: Tuesday til Saturday",
+            welcomeTextWeeks27: 
+            "Week 27: Monday til Friday ",
+              accomodation: "Accommodation",
             accomodationText:
               "The summer camp and accommodation will be held at Jakthytta on Malmøya, with its own sleeping cabin with beds for everyone. Here we have different types of rooms, including rooms for 2, 4, 6 and 10 people. Please note that we will have separate rooms for boys and girls. ",
             accomodationLink: "Read more here.",
@@ -93,15 +99,23 @@ i18n
             transportTitle: "Transportation",
             transportText:
               "We wish to travel as a group all the way to Malmøya. Meeting point and attendance will be in the Oslo area on Monday the week you are going to the camp. We will take a bus to Larvik and then a boat ride to the island, where we finally go together to the cabin. More information about time and place will be provided.",
+            departureWeek1:
+              "Week 25 and week 27",
             departure:
-              "Meeting place and time: Monday approximately at 09:00 central Oslo. ",
+              "Meeting place and time: Monday approximately at 09:00 central Oslo.",
             arrival:
               "Return place and time: Friday approximately at 15:00 central Oslo. ",
+            departureWeek2:
+              "Week 26",
+            departure2:
+              "Meeting place and time: Tuesday approximaterly at 09:00 central Oslo.",
+            arrival2:
+            "Return place and time: Saturday approximately at 15:00 central Oslo.",
             other:
               "It is also possible for the participants to meet directly at camp location in Larvik. All participant are responsible for being at the specified meeting point at the set time. ",
             securityTitle: "Safety",
             securityText:
-              "The instructors at the summer camp have recently completed first aid and lifesaving lessons. It will be mandatory with a life jacket when we are on a boat and there will always be a lifeguard present when the children swim in the sea. We take the safety of all participants at the camp very seriously and will have strict procedures in place to ensure this safety. It is not a requirement for the participants to swim. More information is coming.",
+              "The instructors at the summer camp have recently completed first aid and lifesaving lessons. It will be mandatory with a life jacket when we are on a boat and there will always be a lifeguard present when the children swim in the sea. We take the safety of all participants at the camp very seriously and will have strict procedures in place to ensure this safety. It is not a requirement for the participants to swim. Additional information will be provided once the children have been allocated a spot",
             communicationTitle: "Communication and homesickness",
             communicationText1:
               "We want the participants to use their mobile phone as little as possible during the summer camp. This makes it easier for them to get to know others and be present in what is happening. An hour is set aside every day, where the participants can have contact with you if they or you wish to do so. It will always be possible to contact us if something arises.",
@@ -122,7 +136,7 @@ i18n
           about: {
             aboutTitle: "About Us",
             aboutText1:
-              "We at EY want to contribute with something more than the consulting services in technology we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY Skye, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
+            "We at EY want to contribute with something more than the consulting services we provide as a company. Since the war broke out in Ukraine, we have a strong desire to contribute. That is why we, the employees at EY, arrange this summer camp together. We do it as volunteers and use our spare time. At the same time, we are convinced that this experience will be just as valuable to us as to the children who join the camp. We look forward to campfires, good conversations, meals together that we have made ourselves and giggling in the sleeping bag before the night comes.",
             aboutText2:
               "For many of us, memories of summer holidays are something we will never forget. Lazy days on the beach, crab fishing and boat trips. Evening swims in the rain and laughs that create comfort and warmth throughout the rest of the week. A sense of belonging, unity and security that we bring with us further in life. We all come from different environments, families and places, and have a lot to learn from each other. Through Skye Summer Camp, we want to give children and youngsters who have had to flee their home country a place to relax, the opportunity to play and participate in activities together with others in a similar situation.",
             aboutText3:
@@ -134,7 +148,7 @@ i18n
             instructorsTitle:
               " Julia Faviritova will be participating as an instructor during all 3 weeks of camp. She speaks both Norwegian, English and Ukrainian. ",
             instructorsText:
-              "Julia was also an instructor/assistant at EY Summercamp in 2022 & 2023. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for a little longer than one year. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
+              "Julia was also an instructor/assistant at EY Summercamp in 2022 & 2023. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for about 2 years now. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
             julia: "Julia Favoritova"
           },
           captions: {
@@ -173,10 +187,16 @@ i18n
             welcomeText1:
               "Sommeren 2024 vil vi igjen gjennomføre 5 dagers sommerferie, fra mandag til fredag, for barn og unge fra Ukraina som er nye i Norge.",
             welcomeText2:
-              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
+              "Er du mellom 9 og 13 år, født mellom 2011 og 2015? Har du lyst til å være med på ulike aktiviteter, som fotball, fisking, matlaging, tegning, bading og mye annet – og kanskje få noen nye venner? ",
             welcomeText3:
-              "Campen er gratis og gjennomføres 3 ganger på Jakthytta på Malmøya utenfor Stavern. Hver camp varer fra mandag til fredag, med 20-25 barn og unge og ledere fra både Ukraina og Norge. Vi håper at sommercampen kan gi et pusterom og skape gode minner for deltagerne. ",
-            accomodation: "Overnatting",
+              "Campen er gratis og gjennomføres 3 ganger på Jakthytta på Malmøya utenfor Stavern. På hver campuke vil det være 20-30 barn og unge og ledere fra både Ukraina og Norge. Campen vil foregå: ",
+              welcomeTextWeeks25: 
+              "Uke 25: mandag til fredag ",
+              welcomeTextWeeks26: 
+              "Uke 26: tirsdag til lørdag",
+              welcomeTextWeeks27: 
+              "Uke 27: mandag til fredag ",
+              accomodation: "Overnatting",
             accomodationText:
               "Sommercampen og overnattingen blir i Jakthytta på Malmøya, med egen sovehytte med senger til alle. Her har vi ulike typer rom, blant annet 2-mannsrom, 4-mannsrom, 6-mannsrom og 10-mannsrom. Det vil være separate rom for gutter og jenter. ",
             accomodationLink: "Les mer her.",
@@ -232,13 +252,23 @@ i18n
             transportTitle: "Transport",
             transportText:
               "Vi ønsker å reise sammen med felles transport hele veien til Malmøya. Oppmøte vil være i Oslo-området mandagen den uken du skal på tur. Vi tar buss til Larvik og deretter båt til øya, hvor vi til slutt går sammen opp til hytta. Nærmere informasjon om tid og sted vil komme.",
-            departure: "Oppmøtested og tid: mandag kl 0900 sentralt i Oslo. ",
-            arrival: "Retursted og tid: fredag ca kl 1500 sentralt i Oslo. ",
+            departureWeek1:
+              "Uke 25 og uke 27",
+            departure:
+              "Avresise sted og tid: mandag ca. klokken 09:00 sentralt i Oslo..",
+            arrival:
+              "Retursted og tid: fredag ca. klokken 15:00 sentralt i Oslo. ",
+            departureWeek2:
+              "Uke 26",
+            departure2:
+              "Avreise sted og tid: tirsdag ca. klokken 09:00 sentralt i Oslo.",
+            arrival2:
+            "Retursted og tid: lørdag ca. klokken 15:00 sentralt i Oslo.",
             other:
               "Eventuelt kan deltaker møte rett på camp i Larvik. Deltaker er selv ansvarlig for å komme seg til oppmøte sted til avtalt tid. ",
             securityTitle: "Sikkerhet",
             securityText:
-              "Lederne på sommercampen har nylig gjennomført førstehjelp- og livredningskurs. Det vil være påbudt med flytevest når vi kjører båt og det vil alltid være badevakt til stede når barna bader i sjøen. Vi tar sikkerheten til alle deltakerne på campen veldig alvorlig og vil ha strenge rutiner for å ivareta denne sikkerheten. Det er ikke et krav at deltagerne kan svømme. Mer informasjon kommer.",
+              "Lederne på sommercampen har nylig gjennomført førstehjelp- og livredningskurs. Det vil være påbudt med flytevest når vi kjører båt og det vil alltid være badevakt til stede når barna bader i sjøen. Vi tar sikkerheten til alle deltakerne på campen veldig alvorlig og vil ha strenge rutiner for å ivareta denne sikkerheten. Det er ikke et krav at deltagerne kan svømme. Mer informasjon vil bli gått når barna har blitt tildelt en plass på campen",
             communicationTitle: "Kommunikasjon og hjemlengsel",
             communicationText1:
               "Vi ønsker at barna og de unge skal bruke minst mulig mobiltelefon på sommercampen. Da blir det lettere for dem å bli kjent med andre og være til stede i det som skjer. Det settes av en time hver dag, der deltagerne kan ha kontakt med dere dersom de eller dere ønsker det. Det vil alltid være mulig å ta kontakt med oss dersom noe oppstår.",
@@ -258,7 +288,7 @@ i18n
           about: {
             aboutTitle: "Om Oss",
             aboutText1:
-              "Vi som jobber i EY har lyst til å bidra med noe mer enn de konsulent-tjenestene innen teknologi vi leverer som selskap. Etter at krigen brøt ut i Ukraina har vi et sterkt ønske om å bidra. Derfor er det vi ansatte som driver Skye sommercamp sammen. Vi gjør det som frivillige, og gir av vår tid. Samtidig er vi overbevist om at det vil være like bra for oss som for barna som blir med på campen. Vi gleder oss til leirbål, gode samtaler, måltider sammen som vi selv har laget og fnising i soveposen før natten kommer.",
+              "Vi som jobber i EY har lyst til å bidra med noe mer enn de konsulent-tjenestene vi leverer som selskap. Etter at krigen brøt ut i Ukraina har vi et sterkt ønske om å bidra. Derfor er det vi, ansatte i EY, arrangerer denne sommercampen sammen. Vi gjør det som frivillige, og gir av vår tid. Samtidig er vi overbevist om at det vil være like bra for oss som for barna som blir med på campen. Vi gleder oss til leirbål, gode samtaler, måltider sammen som vi selv har laget og fnising i soveposen før natten kommer.",
             aboutText2:
               "For mange av oss er minner fra sommerferier noe vi aldri vil glemme. Late dager på stranden, krabbefiske og båtturer. Kveldsbad i regnet og latterkramper som skaper varme og nærhet for resten av uka. En følelse av tilhørighet, samhold og trygghet som vi har med oss videre i livet. Vi kommer alle fra ulike miljøer, familier og steder, og har mye å lære av hverandre. Gjennom Skye sommercamp ønsker vi å gi barn og unge som har måttet flykte fra landet sitt og fra tryggheten, et pusterom, mulighet til å leke og delta i aktiviteter sammen med andre i en lignenede situasjon.",
             aboutText3:
@@ -270,7 +300,7 @@ i18n
             instructorsTitle:
               "Julia Favoritova vil være med som instruktør på camp alle 3 ukene. Hun snakker både norsk, engelsk og ukrainsk. ",
             instructorsText:
-              "Julia var også med som instruktør/assistent på EY Sommercamp i 2022 og 2023. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge litt over et år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
+              "Julia var også med som instruktør/assistent på EY Sommercamp i 2022 og 2023. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge rundt 2 år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
             julia: "Julia Favoritova"
           },
           captions: {
