@@ -89,7 +89,7 @@ i18n
             bullet8:
               "EY Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The camp registration form has not been opened yet.",
+              "The camp registration will open Monday june 13th. at 12:00",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -127,7 +127,7 @@ i18n
             pakktext2:
               "It's nice to bring some summer clothes and some warm clothes, toiletries and swimwear. We recommend clothes that can be used in play and activity, both inside and outside. It's nice to have a bag and a water bottle.",
             pakktext3:
-              "All participants are given a sleeping bag and life jacket at the camp that will be theirs to take home. ",
+              "All participants are given a life jacket and sleeping bag at the camp. The sleeping bag will be theirs to take home after camp. ",
             pakktext4:
               "You may want to bring some reading material, stuffed animals, caps or other headgear and sunglasses.",
             pakktext5:
@@ -242,7 +242,7 @@ i18n
             bullet8:
               "EY sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
             fullybooked:
-              "Påmelding til Sommercampen har ikke åpnet enda",
+              "Påmelding til Sommercampen vil åpne mandag 13.06 klokken 12:00",
           },
           practical: {
             accomodationTitle: "Overnatting",
@@ -280,7 +280,7 @@ i18n
             pakktext2:
               "Det er fint å ha med seg litt sommerklær og litt varme klær, toalettsaker og badetøy. Det er ikke nødvendig med pentøy, men klær som kan brukes i lek og aktivitet, både inne og ute. Det er fint med en liten sekk og en drikkeflaske.",
             pakktext3:
-              "Alle deltakere får sovepose og flytevest på camp som blir deres til å ta med seg hjem.",
+              "Alle deltakere får sovepose og flytevest på camp. Soveposen blir deres til å ta med seg hjem etter camp.",
             pakktext4:
               "Det kan være greit å ha med noe lesestoff, kosedyr, caps eller annet hodeplagg og solbriller.",
             pakktext5: "Vi sender et forslag til pakkeliste etter påmelding",
