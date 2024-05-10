@@ -89,7 +89,7 @@ i18n
             bullet8:
               "EY Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The camp registration will open Monday june 13th. at 12:00",
+              "The camp registration will open Monday May 13th. at 12:00",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -242,7 +242,7 @@ i18n
             bullet8:
               "EY sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
             fullybooked:
-              "Påmelding til Sommercampen vil åpne mandag 13.06 klokken 12:00",
+              "Påmelding til Sommercampen vil åpne mandag 13.05 klokken 12:00",
           },
           practical: {
             accomodationTitle: "Overnatting",
@@ -255,7 +255,7 @@ i18n
             departureWeek1:
               "Uke 25 og uke 27",
             departure:
-              "Avresise sted og tid: mandag ca. klokken 09:00 sentralt i Oslo..",
+              "Avresise sted og tid: mandag ca. klokken 09:00 sentralt i Oslo.",
             arrival:
               "Retursted og tid: fredag ca. klokken 15:00 sentralt i Oslo. ",
             departureWeek2:
