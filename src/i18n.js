@@ -57,7 +57,7 @@ i18n
           pamelding: {
             title: "How do I sign up?",
             text1:
-              "Are you between 9 and 13 years old, born in 2013, 2012, 2011 or 2010?. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 3 weeks (weeks 25, 26 and 27) with 10-12 instructors each week.",
+              "Are you between 9 and 13 years old, born in between 2011 and 2015?. We review the applications as quickly as possible and separate the applicants into different groups. There will be about 20-25 spots each week for 3 weeks (weeks 25, 26 and 27) with 10-12 instructors each week.",
             text2: "Participation at EY Summer Camp is free of charge.  ",
             text3: "To register, you can use the form ",
             responsible:
@@ -210,7 +210,7 @@ i18n
           pamelding: {
             title: "Hvordan melder jeg meg på?",
             text1:
-              "Er du mellom 9 og 13 år, født i 2013, 2012, 2011 eller 2010? Da kan du melde deg på sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 3 uker (uke 25, 26 og 27) med 10-12 ledere hver uke.  ",
+              "Er du mellom 9 og 13 år, født mellom 2011 og 2015? Da kan du melde deg på sommercamp. Vi går gjennom søknadene så raskt som mulig, og fordeler søkerne i ulike grupper. Det vil bli ca. 20-25 plasser hver uke i 3 uker (uke 25, 26 og 27) med 10-12 ledere hver uke.  ",
             text2: "Deltagelse på EY sommercamp er gratis. ",
             text3: "For påmelding kan du bruke skjemaet ",
             responsible:

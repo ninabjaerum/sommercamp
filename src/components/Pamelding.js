@@ -80,8 +80,8 @@ const Pamelding = () => {
               <Typography  style={{
                   fontWeight: "700",
                 }}> {t("practical.departureWeek2")}</Typography>
-              <Typography> {t("practical.departure")}</Typography>
-              <Typography> {t("practical.arrival")}</Typography>
+              <Typography> {t("practical.departure2")}</Typography>
+              <Typography> {t("practical.arrival2")}</Typography>
               <br />
               <Typography> {t("pamelding.meetLarvik")}</Typography>
               <Typography
