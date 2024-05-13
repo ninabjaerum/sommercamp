@@ -103,7 +103,7 @@ const Pamelding = () => {
                <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=mT-XW99360uyfaoMcLhILFVXtLiX2v5KtZDTtv6hXjRUMkxMQ1A1Q0hBRzdHQzdRN0c1SzkzS0JYOS4u&Token=4854e24d314547d198f2389fc72cfc64"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILFVXtLiX2v5KtZDTtv6hXjRUMkxMQ1A1Q0hBRzdHQzdRN0c1SzkzS0JYOS4u"
                   style={{ color: "#43bc94" }}
                 >  
                   <Button variant="contained" disabled={false}>
