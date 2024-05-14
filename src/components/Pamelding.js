@@ -58,7 +58,7 @@ const Pamelding = () => {
               >
                 {t("pamelding.title")}
               </Typography>
-              {/* <Typography
+               <Typography
                 variant="h6"
                 style={{
                   color: "#F26157",
@@ -68,7 +68,7 @@ const Pamelding = () => {
               >
                 {" "}
                 {t("pamelding.fullybooked")}
-              </Typography>{" "} */}
+              </Typography>{" "} 
               <br />
               <Typography> {t("pamelding.text1")}</Typography> <br />
               <Typography style={{
@@ -100,17 +100,17 @@ const Pamelding = () => {
               </Typography>
               <div style={{ paddingTop: "2vh" }}>
                 <ThemeProvider theme={themeButton}>
-               <a
+               {/* <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://forms.office.com/Pages/ResponsePage.aspx?id=mT-XW99360uyfaoMcLhILFVXtLiX2v5KtZDTtv6hXjRUMkxMQ1A1Q0hBRzdHQzdRN0c1SzkzS0JYOS4u"
                   style={{ color: "#43bc94" }}
-                >  
-                  <Button variant="contained" disabled={false}>
+                >   */}
+                  <Button variant="contained" disabled={true}>
                     {t("pamelding.button")}{" "}
                       
                   </Button>
-                  </a> 
+                  {/* </a>  */}
                 </ThemeProvider>
               </div>
               <div>

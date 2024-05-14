@@ -89,7 +89,7 @@ i18n
             bullet8:
               "EY Summer Camp instructors are available to children throughout their stay, both day and night",
             fullybooked:
-              "The camp registration will open Monday May 13th. at 12:00",
+              "Registration is closed. The camp is now fully booked",
           },
           practical: {
             accomodationTitle: "Accomodation",
@@ -242,7 +242,7 @@ i18n
             bullet8:
               "EY sommercamp instruktører er tilgjengelig for barna under hele oppholdet, dag og natt",
             fullybooked:
-              "Påmelding til Sommercampen vil åpne mandag 13.05 klokken 12:00",
+              "Påmeldingen er nå stengt. Campen er fullbooket",
           },
           practical: {
             accomodationTitle: "Overnatting",
