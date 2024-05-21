@@ -149,7 +149,10 @@ i18n
               " Julia Faviritova will be participating as an instructor during all 3 weeks of camp. She speaks both Norwegian, English and Ukrainian. ",
             instructorsText:
               "Julia was also an instructor/assistant at EY Summercamp in 2022 & 2023. She is 43 years old, and a mother of two young boys. They are from Kyiv and have stayed in Norway for about 2 years now. Julia works with culture and is an art instructor. Amongst other things, she teaches traditional Ukrainian craft work and is experienced in working with children and teens.",
-            julia: "Julia Favoritova"
+            julia: "Julia Favoritova",
+            veronika: "Veronika Bubenko",
+            veronikaTitle: "Veronika Bubenko will be participating as an instructor during week 27 of camp. She speaks Norwegian, English, and Ukrainian.",
+            veronikaText: "Veronika is 27 years old and hails from Kyiv, Ukraine. She has been living in Norway for about two years now. Veronika works in the refugee department. Among her duties, she assists refugees, both adults and children, helping them integrate into Norwegian society. Additionally, Veronika has experience working with preschool and school-aged children from Ukraine."
           },
           captions: {
             activitiesTitle: "Activities",
@@ -301,7 +304,10 @@ i18n
               "Julia Favoritova vil være med som instruktør på camp alle 3 ukene. Hun snakker både norsk, engelsk og ukrainsk. ",
             instructorsText:
               "Julia var også med som instruktør/assistent på EY Sommercamp i 2022 og 2023. Hun er 43 år og mor til to sønner. De kommer fra Kyiv og har bodd i Norge rundt 2 år. Julia jobber som kulturleder og kursholder i kunst. Hun driver blant annet med tradisjonelt ukrainsk håndtverk og har lang erfaring med arbeid med barn og unge. ",
-            julia: "Julia Favoritova"
+            julia: "Julia Favoritova",
+            veronika: "Veronika Bubenko",
+            veronikaTitle: "Veronika Bubenko skal delta som instruktør på camp i uke 27. Hun snakker både norsk, engelsk og ukrainsk.",
+            veronikaText: "Veronika er 27 år gammel fra Kyiv, Ukraina og har bodd i Norge i omtrent 2 år nå. Veronika jobber med flyktninger. Noen av oppgavene hennes er å bistå flykninger, både barn og voksne med å integreres i det norske samfunnet. Veronika har også erfaring med å jobbe med barn i barnehage- og barneskolealder fra Ukraina."
           },
           captions: {
             activitiesTitle: "Aktiviteter",

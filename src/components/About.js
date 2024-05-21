@@ -1,3 +1,4 @@
+
 import SubHeader from "./SubHeader";
 import { Container, Grid, Typography, Divider, Chip } from "@mui/material";
 import Footer from "./Footer";
@@ -6,9 +7,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Modal, ModalContent } from "./Modal";
 import { useState } from "react";
-
 const titlesTheme = createTheme();
-
 titlesTheme.typography.h4 = {
   fontSize: "1.8rem",
   "@media (min-width:600px)": {
@@ -18,13 +17,11 @@ titlesTheme.typography.h4 = {
     fontSize: "2.4rem",
   },
 };
-
 const holder = {
   height: "250px",
   margin: "auto",
   display: "block",
 };
-
 const About = () => {
   const { t } = useTranslation();
   const [isOpen, setIsopen] = useState(false);
@@ -48,7 +45,6 @@ const About = () => {
       },
     },
   });
-
   return (
     <div>
       <ThemeProvider theme={titlesTheme}>
@@ -83,7 +79,7 @@ const About = () => {
               </Divider>
             </Grid>
             {/* Julia */}
-            <Grid item xs={12} sm={12} style={{ padding: "5% 20% 5% 20%" }}>
+            <Grid item xs={12} sm={12} style={{ padding: "2% 20% 2% 20%" }}>
               <div>
                 <Typography
                   variant="h6"
@@ -108,7 +104,7 @@ const About = () => {
                 </Typography>
               </div>
             </Grid>
-            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+            <Grid item xs={12} sm={6}>
               <div style={{ padding: "2vh" }}>
                 <div
                   style={{
@@ -121,7 +117,7 @@ const About = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} sm={6} style={{ padding: "0.5vh" }}>
+            <Grid item xs={12} sm={6}>
               <div style={{ padding: "2vh" }}>
                 <div
                   style={{
@@ -134,6 +130,55 @@ const About = () => {
                 </div>
               </div>
             </Grid>
+            {/* Veronika */}
+            <Grid item xs={12} sm={12} pt={4}>
+            <Divider>
+                <ThemeProvider theme={themedChip}>
+                  <Chip label={t("about.veronika")} backgroundColor="#43bc94" />
+                </ThemeProvider>
+            </Divider>
+            </Grid>
+            <Grid item xs={12} sm={12} style={{ padding: "2% 20% 2% 20%" }}>
+              <div>
+                <Typography
+                  variant="h6"
+                  style={{
+                    color: "#43bc94",
+                    fontWeight: "600",
+                    paddingBottom: "1vh",
+                    paddingTop: "1vh",
+                    textAlign: "center",
+                  }}
+                >
+                  {t("about.veronikaTitle")}
+                </Typography>
+                <Typography
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "2vh",
+                    paddingBottom: "2vh",
+                  }}
+                >
+                  {t("about.veronikaText")}
+                </Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={12}>
+              <div style={{ padding: "2vh" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                 
+                  }}
+                >
+                  <img alt="Veronika" width="50%" src="veronika.jpg"></img>
+                </div>
+              </div>
+            </Grid>
+
+
+            {/* Embassy */}
             <Grid item sm={6} xs={12}>
               <div style={{ padding: "2vh" }}>
                 <Typography
@@ -172,5 +217,4 @@ const About = () => {
     </div>
   );
 };
-
 export default About;
