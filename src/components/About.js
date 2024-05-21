@@ -82,6 +82,7 @@ const About = () => {
                 </ThemeProvider>
               </Divider>
             </Grid>
+            {/* Julia */}
             <Grid item xs={12} sm={12} style={{ padding: "5% 20% 5% 20%" }}>
               <div>
                 <Typography
