@@ -196,7 +196,7 @@ const About = () => {
                   <Modal onOpen={showModal}>
                     <div className="holder">
                       <img
-                        src="approval.jpg"
+                        src="LetterEmbassy2024.jpg"
                         alt="approval letter"
                         style={holder}
                       />
@@ -204,7 +204,7 @@ const About = () => {
                   </Modal>
                   {isOpen && (
                     <ModalContent onClose={() => setIsopen(false)}>
-                      <img src="LetterEmbassy.jpg" alt="approval letter" />
+                      <img src="LetterEmbassy2024.jpg" alt="approval letter" />
                     </ModalContent>
                   )}
                 </div>
